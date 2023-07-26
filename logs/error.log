@@ -1,0 +1,1136 @@
+2023-06-20T01:44:44.850Z-error: Dabase Error
+2023-06-20T01:45:30.354Z-error: Dabase Error
+2023-06-20T01:46:00.712Z-error: Dabase Error
+2023-06-20T01:50:39.496Z-error: Dabase Error
+2023-06-20T01:51:14.659Z-error: Dabase Error
+2023-06-20T02:07:17.298Z-error: Dabase Error
+2023-06-20T02:11:05.205Z-error: Dabase Error
+2023-06-20T02:12:03.094Z-error: Dabase Error
+2023-06-20T02:19:20.075Z-error: Dabase Error
+2023-06-22T01:03:03.256Z-error: Unexpected token } in JSON at position 94
+2023-06-22T01:05:32.138Z-error: Unexpected token } in JSON at position 94
+2023-06-22T01:06:00.575Z-error: Unexpected token ' in JSON at position 16
+2023-06-22T01:11:32.027Z-error: database "gestion_cita1" does not exist
+2023-06-22T01:14:29.015Z-error: database "gestion_cita1" does not exist
+2023-06-22T01:15:09.123Z-error: database "gestion_cita1" does not exist
+2023-06-22T01:15:09.123Z-error: Error creating doctor: error: database "gestion_cita1" does not exist
+2023-06-22T01:15:22.358Z-error: database "gestion_cita1" does not exist
+2023-06-22T01:15:22.358Z-error: Error creating doctor: error: database "gestion_cita1" does not exist
+2023-06-22T01:16:29.269Z-error: Error creating doctor: error: database "gestion_cita1" does not exist
+2023-06-22T01:18:02.786Z-error: Internal Server Error
+2023-06-22T01:19:08.626Z-error: Internal Server Error
+2023-06-22T01:19:16.801Z-error: Internal Server Error
+2023-06-22T01:19:47.999Z-error: Internal Server Error
+2023-06-22T01:20:33.396Z-error: Internal Server Error
+2023-06-22T01:22:44.205Z-error: Internal Server Error
+2023-06-22T01:24:40.933Z-error: Internal Server Error
+2023-06-22T01:32:55.481Z-error: Failed to create doctor
+2023-06-22T01:33:51.958Z-error: Failed to create doctor
+2023-06-22T01:34:09.975Z-error: Failed to create doctor
+2023-06-22T01:36:05.413Z-error: Failed to create doctor repository
+2023-06-22T01:36:55.931Z-error: Failed to create doctor dubt: error: database "gestion_cita1" does not exist
+2023-06-22T01:39:07.486Z-error: Failed to create doctor dubt: error: database "gestion_cita1" does not exist
+2023-06-22T01:45:03.544Z-error: Failed to create doctor dubt: error: database "gestion_cita1" does not exist
+2023-06-22T01:45:26.417Z-error: Failed to create doctor dubt: error: database "gestion_cita1" does not exist
+2023-06-22T01:48:06.008Z-error: Failed to create doctor dubt: error: database "gestion_cita1" does not exist
+2023-06-22T02:28:21.280Z-error: Record has not found yet
+2023-06-22T02:30:36.460Z-error: Record has not found yet
+2023-06-22T02:31:34.848Z-error: Record has not found yet
+2023-06-22T02:32:01.334Z-error: Record has not found yet
+2023-06-22T02:32:35.323Z-error: Record has not found yet
+2023-06-22T02:34:41.157Z-error: Failed get doctor by id in repository
+2023-06-22T02:34:41.157Z-error: Record has not found yet
+2023-06-22T02:35:16.091Z-error: Record has not found yet
+2023-06-22T02:36:03.877Z-error: Failed get doctor by id in repository
+2023-06-22T02:36:03.878Z-error: Record has not found yet
+2023-06-22T02:42:19.366Z-error: Internal Server Error
+2023-06-22T02:42:55.239Z-error: Internal Server Error
+2023-06-22T02:43:11.640Z-error: Internal Server Error
+2023-06-22T02:45:05.590Z-error: Internal Server Error
+2023-06-22T02:45:05.594Z-error: Record has not found yet
+2023-06-22T02:45:38.105Z-error: Internal Server Error
+2023-06-22T02:45:38.110Z-error: Record has not found yet
+2023-06-22T02:46:06.303Z-error: Internal Server Error
+2023-06-22T02:46:06.307Z-error: Record has not found yet
+2023-06-22T02:46:22.396Z-error: Internal Server Error
+2023-06-22T02:46:22.400Z-error: Record has not found yet
+2023-06-22T02:46:29.887Z-error: Internal Server Error
+2023-06-22T02:46:29.891Z-error: Record has not found yet
+2023-06-22T02:48:14.326Z-error: Internal Server Error
+2023-06-22T02:48:14.330Z-error: Record has not found yet
+2023-06-22T02:48:14.331Z-error: Internal Server Error
+2023-06-22T02:48:37.967Z-error: Internal Server Error
+2023-06-22T02:48:37.970Z-error: Record has not found yet
+2023-06-22T02:48:37.971Z-error: Internal Server Error
+2023-06-22T02:51:42.196Z-error: Internal Server Error
+2023-06-22T02:51:42.201Z-error: Record has not found yet
+2023-06-22T02:51:42.202Z-error: Internal Server Error
+2023-06-22T02:51:49.412Z-error: Internal Server Error
+2023-06-22T02:51:49.417Z-error: Record has not found yet
+2023-06-22T02:51:49.419Z-error: Internal Server Error
+2023-06-22T02:53:04.812Z-error: Internal Server Error
+2023-06-22T02:53:04.816Z-error: Record has not found yet
+2023-06-22T02:53:04.817Z-error: Internal Server Error
+2023-06-22T02:53:27.789Z-error: Internal Server Error
+2023-06-22T02:53:27.793Z-error: Record has not found yet
+2023-06-22T02:53:27.794Z-error: Internal Server Error
+2023-06-22T02:53:40.236Z-error: Internal Server Error
+2023-06-22T02:53:40.241Z-error: Record has not found yet
+2023-06-22T02:53:40.241Z-error: Internal Server Error
+2023-06-22T02:56:15.271Z-error: Internal Server Error
+2023-06-22T02:56:15.280Z-error: Record has not found yet
+2023-06-22T02:56:15.281Z-error: Internal Server Error
+2023-06-22T02:57:38.625Z-error: Internal Server Error
+2023-06-22T02:57:38.628Z-error: Record has not found yet
+2023-06-22T02:57:38.629Z-error: Internal Server Error
+2023-06-23T00:59:18.508Z-error: Failed to update doctor from service
+2023-06-23T00:59:18.509Z-error: Failed to update doctor
+2023-06-23T01:00:05.291Z-error: Failed to update doctor from service
+2023-06-23T01:00:05.291Z-error: Failed to update doctor
+2023-06-23T01:30:52.709Z-error: Failed get patient by id in repository
+2023-06-23T01:30:52.709Z-error: Record has not found yet
+2023-06-23T01:32:58.841Z-error: Record has not found yet
+2023-06-23T01:35:39.741Z-error: Failed get patient by id in repository
+2023-06-23T01:35:39.741Z-error: Record has not found yet
+2023-06-23T01:38:36.213Z-error: Failed get patient by id in repository
+2023-06-23T01:38:36.213Z-error: Record has not found yet
+2023-06-23T01:41:49.636Z-error: Id must be a number
+2023-06-24T02:23:13.727Z-error: Failed get appointment by id in repository
+2023-06-24T02:23:13.727Z-error: Failed to get appointment from service
+2023-06-24T02:23:13.728Z-error: Record has not found yet
+2023-06-24T02:28:08.476Z-error: database "gestion_citas1" does not exist
+2023-06-24T02:28:53.679Z-error: database "gestion_citas1" does not exist
+2023-06-24T02:28:53.679Z-error: Failed getting all appointments from service
+2023-06-24T02:30:50.112Z-error: database "gestion_citas1" does not exist
+2023-06-24T02:30:50.112Z-error: Failed getting all appointments from service aca
+2023-06-24T02:40:46.437Z-error: Failed to create doctor dubt: error: database "gestion_citas1" does not exist
+2023-06-27T22:22:14.486Z-error: Failed get doctor by id in repository
+2023-06-27T22:22:14.487Z-error: Record has not found yet
+2023-06-27T22:37:44.305Z-error: connect ECONNREFUSED 127.0.0.1:5433
+2023-06-27T22:37:44.307Z-error: Failed getting all appointments from service
+2023-06-28T02:01:29.142Z-error: connect ECONNREFUSED 127.0.0.1:5433
+2023-06-28T02:01:29.258Z-error: Failed getting all appointments from service
+2023-07-18T21:39:10.264Z-error: Internal Server Error
+2023-07-18T21:39:10.627Z-error: Record has not found yet
+2023-07-18T21:39:10.636Z-error: Internal Server Error
+2023-07-19T00:27:39.285Z-error: Internal Server Error
+2023-07-19T00:27:42.082Z-error: Record has not found yet
+2023-07-19T00:27:42.098Z-error: Internal Server Error
+2023-07-19T00:31:58.997Z-error: Internal Server Error
+2023-07-19T00:31:59.553Z-error: Record has not found yet
+2023-07-19T00:31:59.569Z-error: Internal Server Error
+2023-07-19T00:34:21.540Z-error: Internal Server Error
+2023-07-19T00:34:22.380Z-error: Record has not found yet
+2023-07-19T00:34:22.390Z-error: Internal Server Error
+2023-07-19T01:04:44.971Z-error: Internal Server Error
+2023-07-19T01:04:46.715Z-error: Record has not found yet
+2023-07-19T01:04:46.729Z-error: Internal Server Error
+2023-07-19T01:05:31.840Z-error: Internal Server Error
+2023-07-19T01:05:32.319Z-error: Record has not found yet
+2023-07-19T01:05:32.336Z-error: Internal Server Error
+2023-07-19T01:16:18.319Z-error: Internal Server Error
+2023-07-19T01:16:18.898Z-error: Record has not found yet
+2023-07-19T01:16:18.915Z-error: Internal Server Error
+2023-07-19T02:55:40.956Z-error: Internal Server Error
+2023-07-19T02:55:42.299Z-error: Record has not found yet
+2023-07-19T02:55:42.308Z-error: Internal Server Error
+2023-07-20T01:00:32.504Z-error: Internal Server Error
+2023-07-20T01:02:28.164Z-error: Internal Server Error
+2023-07-20T01:02:29.081Z-error: Record has not found yet
+2023-07-20T01:02:29.098Z-error: Internal Server Error
+2023-07-20T01:23:16.900Z-error: Internal Server Error
+2023-07-20T01:23:17.889Z-error: Record has not found yet
+2023-07-20T01:23:17.901Z-error: Internal Server Error
+2023-07-20T01:32:05.012Z-error: Internal Server Error
+2023-07-20T01:32:05.815Z-error: Record has not found yet
+2023-07-20T01:32:05.827Z-error: Internal Server Error
+2023-07-20T02:29:28.146Z-error: Internal Server Error
+2023-07-20T02:29:28.959Z-error: Record has not found yet
+2023-07-20T02:29:28.971Z-error: Internal Server Error
+2023-07-20T02:31:00.130Z-error: Internal Server Error
+2023-07-20T02:31:00.929Z-error: Record has not found yet
+2023-07-20T02:31:00.950Z-error: Internal Server Error
+2023-07-20T02:31:39.975Z-error: Internal Server Error
+2023-07-20T02:31:40.606Z-error: Record has not found yet
+2023-07-20T02:31:40.615Z-error: Internal Server Error
+2023-07-20T03:49:52.965Z-error: Internal Server Error
+2023-07-20T03:49:54.359Z-error: Record has not found yet
+2023-07-20T03:49:54.379Z-error: Internal Server Error
+2023-07-20T03:51:21.701Z-error: Internal Server Error
+2023-07-20T03:51:22.356Z-error: Record has not found yet
+2023-07-20T03:51:22.390Z-error: Internal Server Error
+2023-07-20T03:52:34.721Z-error: Internal Server Error
+2023-07-20T03:52:35.296Z-error: Record has not found yet
+2023-07-20T03:52:35.306Z-error: Internal Server Error
+2023-07-20T03:53:36.281Z-error: Internal Server Error
+2023-07-20T03:53:37.091Z-error: Record has not found yet
+2023-07-20T03:53:37.101Z-error: Internal Server Error
+2023-07-20T03:55:00.782Z-error: Internal Server Error
+2023-07-20T03:55:01.393Z-error: Record has not found yet
+2023-07-20T03:55:01.414Z-error: Internal Server Error
+2023-07-20T04:36:20.761Z-error: Internal Server Error
+2023-07-20T04:39:34.471Z-error: Internal Server Error
+2023-07-20T04:42:29.770Z-error: Internal Server Error
+2023-07-20T04:49:03.685Z-error: Internal Server Error
+2023-07-20T04:49:04.440Z-error: Record has not found yet
+2023-07-20T04:49:04.451Z-error: Internal Server Error
+2023-07-20T04:50:12.508Z-error: Internal Server Error
+2023-07-20T04:50:14.059Z-error: Record has not found yet
+2023-07-20T04:50:14.069Z-error: Internal Server Error
+2023-07-20T05:11:16.164Z-error: Internal Server Error
+2023-07-20T05:11:17.369Z-error: Record has not found yet
+2023-07-20T05:11:17.380Z-error: Internal Server Error
+2023-07-20T05:30:31.998Z-error: Internal Server Error
+2023-07-20T05:30:32.469Z-error: Record has not found yet
+2023-07-20T05:30:32.479Z-error: Internal Server Error
+2023-07-21T00:41:32.863Z-error: Record has not found yet
+2023-07-21T00:41:32.889Z-error: Internal Server Error
+2023-07-21T00:41:33.785Z-error: Internal Server Error
+2023-07-21T00:41:33.805Z-error: Internal Server Error
+2023-07-21T00:45:47.146Z-error: Record has not found yet
+2023-07-21T00:45:47.164Z-error: Internal Server Error
+2023-07-21T00:45:48.009Z-error: Internal Server Error
+2023-07-21T00:45:48.029Z-error: Failed to create appointment from service
+2023-07-21T00:46:58.179Z-error: Record has not found yet
+2023-07-21T00:46:58.193Z-error: Internal Server Error
+2023-07-21T00:46:58.417Z-error: Internal Server Error
+2023-07-21T00:46:58.433Z-error: Failed to create appointment from service
+2023-07-21T00:50:11.375Z-error: Internal Server Error
+2023-07-21T00:50:11.407Z-error: Failed to create appointment from service
+2023-07-21T00:50:11.706Z-error: Record has not found yet
+2023-07-21T00:50:11.723Z-error: Internal Server Error
+2023-07-21T00:54:12.314Z-error: Record has not found yet
+2023-07-21T00:54:12.346Z-error: Internal Server Error
+2023-07-21T00:54:12.794Z-error: Internal Server Error
+2023-07-21T00:54:12.807Z-error: Failed to create appointment from service
+2023-07-21T00:58:34.785Z-error: Record has not found yet
+2023-07-21T00:58:34.800Z-error: Internal Server Error
+2023-07-21T00:58:35.005Z-error: Internal Server Error
+2023-07-21T00:58:35.024Z-error: Internal Server Error
+2023-07-21T01:00:29.696Z-error: Record has not found yet
+2023-07-21T01:00:29.706Z-error: Internal Server Error
+2023-07-21T01:00:29.972Z-error: Internal Server Error
+2023-07-21T01:00:29.983Z-error: Internal Server Error
+2023-07-21T01:01:16.915Z-error: Record has not found yet
+2023-07-21T01:01:16.938Z-error: Internal Server Error
+2023-07-21T01:01:17.481Z-error: Internal Server Error
+2023-07-21T01:01:17.492Z-error: Internal Server Error
+2023-07-21T01:05:07.257Z-error: Internal Server Error
+2023-07-21T01:05:07.273Z-error: Internal Server Error
+2023-07-21T01:05:07.637Z-error: Record has not found yet
+2023-07-21T01:05:07.663Z-error: Internal Server Error
+2023-07-21T01:06:37.338Z-error: Record has not found yet
+2023-07-21T01:06:37.354Z-error: Internal Server Error
+2023-07-21T01:06:37.692Z-error: Internal Server Error
+2023-07-21T01:06:37.705Z-error: Internal Server Error
+2023-07-21T01:07:27.491Z-error: Record has not found yet
+2023-07-21T01:07:27.502Z-error: Internal Server Error
+2023-07-21T01:07:27.762Z-error: Internal Server Error
+2023-07-21T01:07:27.773Z-error: Internal Server Error
+2023-07-21T01:10:31.684Z-error: Internal Server Error
+2023-07-21T01:10:31.699Z-error: Internal Server Error
+2023-07-21T01:10:32.137Z-error: Record has not found yet
+2023-07-21T01:10:32.150Z-error: Internal Server Error
+2023-07-21T01:22:08.900Z-error: Internal Server Error
+2023-07-21T01:22:08.920Z-error: Internal Server Error
+2023-07-21T01:22:09.595Z-error: Record has not found yet
+2023-07-21T01:22:09.605Z-error: Internal Server Error
+2023-07-21T01:23:22.037Z-error: Internal Server Error
+2023-07-21T01:23:22.051Z-error: Internal Server Error
+2023-07-21T01:23:22.108Z-error: Record has not found yet
+2023-07-21T01:23:22.136Z-error: Internal Server Error
+2023-07-21T01:34:33.846Z-error: Internal Server Error
+2023-07-21T01:34:33.867Z-error: Internal Server Error
+2023-07-21T01:34:34.253Z-error: Record has not found yet
+2023-07-21T01:34:34.264Z-error: Internal Server Error
+2023-07-21T01:36:35.607Z-error: Internal Server Error
+2023-07-21T01:36:35.628Z-error: Internal Server Error
+2023-07-21T01:36:36.224Z-error: Record has not found yet
+2023-07-21T01:36:36.237Z-error: Internal Server Error
+2023-07-21T01:39:13.912Z-error: Internal Server Error
+2023-07-21T01:39:13.929Z-error: Internal Server Error
+2023-07-21T01:39:14.651Z-error: Record has not found yet
+2023-07-21T01:39:14.661Z-error: Internal Server Error
+2023-07-21T01:40:24.841Z-error: Record has not found yet
+2023-07-21T01:40:24.854Z-error: Internal Server Error
+2023-07-21T01:40:25.287Z-error: Internal Server Error
+2023-07-21T01:40:25.300Z-error: Internal Server Error
+2023-07-21T02:25:04.601Z-error: Internal Server Error
+2023-07-21T02:25:04.621Z-error: Internal Server Error
+2023-07-21T02:25:05.392Z-error: Record has not found yet
+2023-07-21T02:25:05.402Z-error: Internal Server Error
+2023-07-21T02:28:37.463Z-error: Internal Server Error
+2023-07-21T02:28:37.485Z-error: Internal Server Error
+2023-07-21T02:28:37.951Z-error: Record has not found yet
+2023-07-21T02:28:37.994Z-error: Internal Server Error
+2023-07-21T03:22:59.093Z-error: Internal Server Error
+2023-07-21T03:22:59.111Z-error: Internal Server Error
+2023-07-21T03:22:59.117Z-error: Record has not found yet
+2023-07-21T03:22:59.121Z-error: Internal Server Error
+2023-07-21T03:22:59.608Z-error: Record has not found yet
+2023-07-21T03:22:59.633Z-error: Internal Server Error
+2023-07-21T03:26:15.702Z-error: Record has not found yet
+2023-07-21T03:26:15.720Z-error: Internal Server Error
+2023-07-21T03:26:16.128Z-error: Internal Server Error
+2023-07-21T03:26:16.141Z-error: Internal Server Error
+2023-07-21T03:26:16.145Z-error: Record has not found yet
+2023-07-21T03:26:16.148Z-error: Internal Server Error
+2023-07-21T03:35:27.964Z-error: Record has not found yet
+2023-07-21T03:35:27.977Z-error: Internal Server Error
+2023-07-21T03:35:28.082Z-error: Internal Server Error
+2023-07-21T03:35:28.107Z-error: Internal Server Error
+2023-07-21T03:35:28.114Z-error: Record has not found yet
+2023-07-21T03:35:28.118Z-error: Internal Server Error
+2023-07-21T03:48:03.524Z-error: Internal Server Error
+2023-07-21T03:48:03.542Z-error: Internal Server Error
+2023-07-21T03:48:03.547Z-error: Record has not found yet
+2023-07-21T03:48:03.551Z-error: Internal Server Error
+2023-07-21T03:48:04.340Z-error: Record has not found yet
+2023-07-21T03:48:04.349Z-error: Internal Server Error
+2023-07-21T03:48:04.353Z-error: Failed updating doctor in controller
+2023-07-21T03:48:04.358Z-error: Internal Server Error
+2023-07-21T03:48:54.644Z-error: Internal Server Error
+2023-07-21T03:48:54.664Z-error: Internal Server Error
+2023-07-21T03:48:54.670Z-error: Record has not found yet
+2023-07-21T03:48:54.674Z-error: Internal Server Error
+2023-07-21T03:48:55.401Z-error: Record has not found yet
+2023-07-21T03:48:55.411Z-error: Internal Server Error
+2023-07-21T03:48:55.414Z-error: Failed updating doctor in controller
+2023-07-21T03:48:55.419Z-error: Internal Server Error
+2023-07-21T03:50:17.773Z-error: Internal Server Error
+2023-07-21T03:50:17.786Z-error: Internal Server Error
+2023-07-21T03:50:17.791Z-error: Record has not found yet
+2023-07-21T03:50:17.793Z-error: Internal Server Error
+2023-07-21T03:50:18.358Z-error: Record has not found yet
+2023-07-21T03:50:18.370Z-error: Internal Server Error
+2023-07-21T03:50:18.373Z-error: Failed updating doctor in controller
+2023-07-21T03:50:18.376Z-error: Internal Server Error
+2023-07-21T05:09:19.330Z-error: Internal Server Error
+2023-07-21T05:09:19.350Z-error: Internal Server Error
+2023-07-21T05:09:19.357Z-error: Record has not found yet
+2023-07-21T05:09:19.361Z-error: Internal Server Error
+2023-07-21T05:09:20.273Z-error: Record has not found yet
+2023-07-21T05:09:20.298Z-error: Internal Server Error
+2023-07-21T05:09:20.302Z-error: Failed updating doctor in controller
+2023-07-21T05:09:20.305Z-error: Internal Server Error
+2023-07-21T05:09:20.308Z-error: Record has not found yet
+2023-07-21T05:17:17.253Z-error: Internal Server Error
+2023-07-21T05:17:17.290Z-error: Internal Server Error
+2023-07-21T05:17:17.300Z-error: Record has not found yet
+2023-07-21T05:17:17.305Z-error: Internal Server Error
+2023-07-21T05:17:17.977Z-error: Record has not found yet
+2023-07-21T05:17:17.992Z-error: Internal Server Error
+2023-07-21T05:17:17.997Z-error: Failed updating doctor in controller
+2023-07-21T05:17:18.001Z-error: Internal Server Error
+2023-07-21T05:17:18.004Z-error: Record has not found yet
+2023-07-21T05:18:35.381Z-error: Internal Server Error
+2023-07-21T05:18:35.399Z-error: Internal Server Error
+2023-07-21T05:18:35.405Z-error: Record has not found yet
+2023-07-21T05:18:35.409Z-error: Internal Server Error
+2023-07-21T05:18:36.293Z-error: Record has not found yet
+2023-07-21T05:18:36.310Z-error: Internal Server Error
+2023-07-21T05:18:36.314Z-error: Failed updating doctor in controller
+2023-07-21T05:18:36.316Z-error: Internal Server Error
+2023-07-21T05:32:14.275Z-error: Internal Server Error
+2023-07-21T05:32:14.298Z-error: Internal Server Error
+2023-07-21T05:32:14.306Z-error: Record has not found yet
+2023-07-21T05:32:14.314Z-error: Internal Server Error
+2023-07-21T05:32:15.044Z-error: Record has not found yet
+2023-07-21T05:32:15.058Z-error: Internal Server Error
+2023-07-21T05:32:15.061Z-error: Failed updating doctor in controller
+2023-07-21T05:32:15.063Z-error: Internal Server Error
+2023-07-21T05:37:22.257Z-error: Internal Server Error
+2023-07-21T05:37:22.279Z-error: Internal Server Error
+2023-07-21T05:37:22.288Z-error: Record has not found yet
+2023-07-21T05:37:22.292Z-error: Internal Server Error
+2023-07-21T05:37:23.490Z-error: Record has not found yet
+2023-07-21T05:37:23.501Z-error: Internal Server Error
+2023-07-21T05:37:23.505Z-error: Failed updating doctor in controller
+2023-07-21T05:37:23.507Z-error: Internal Server Error
+2023-07-21T05:38:48.176Z-error: Internal Server Error
+2023-07-21T05:38:48.194Z-error: Internal Server Error
+2023-07-21T05:38:48.200Z-error: Record has not found yet
+2023-07-21T05:38:48.203Z-error: Internal Server Error
+2023-07-21T05:38:49.293Z-error: Record has not found yet
+2023-07-21T05:38:49.303Z-error: Internal Server Error
+2023-07-21T05:38:49.306Z-error: Failed updating doctor in controller
+2023-07-21T05:38:49.308Z-error: Internal Server Error
+2023-07-21T05:40:12.980Z-error: Internal Server Error
+2023-07-21T05:40:13.001Z-error: Internal Server Error
+2023-07-21T05:40:13.043Z-error: Record has not found yet
+2023-07-21T05:40:13.050Z-error: Internal Server Error
+2023-07-21T05:40:14.020Z-error: Record has not found yet
+2023-07-21T05:40:14.031Z-error: Internal Server Error
+2023-07-21T05:40:14.034Z-error: Failed updating doctor in controller
+2023-07-21T05:40:14.036Z-error: Internal Server Error
+2023-07-21T05:41:52.231Z-error: Internal Server Error
+2023-07-21T05:41:52.255Z-error: Internal Server Error
+2023-07-21T05:41:52.262Z-error: Record has not found yet
+2023-07-21T05:41:52.266Z-error: Internal Server Error
+2023-07-21T05:41:52.989Z-error: Record has not found yet
+2023-07-21T05:41:52.999Z-error: Internal Server Error
+2023-07-21T05:41:53.003Z-error: Failed updating doctor in controller
+2023-07-21T05:41:53.005Z-error: Internal Server Error
+2023-07-21T23:53:16.907Z-error: Internal Server Error
+2023-07-21T23:53:16.921Z-error: Internal Server Error
+2023-07-21T23:53:16.925Z-error: Record has not found yet
+2023-07-21T23:53:16.928Z-error: Internal Server Error
+2023-07-21T23:53:18.034Z-error: Record has not found yet
+2023-07-21T23:53:18.044Z-error: Internal Server Error
+2023-07-21T23:53:18.047Z-error: Failed updating doctor in controller
+2023-07-21T23:53:18.049Z-error: Internal Server Error
+2023-07-21T23:53:18.054Z-error: Failed updating doctor in controller
+2023-07-22T00:01:29.717Z-error: Internal Server Error
+2023-07-22T00:01:29.735Z-error: Internal Server Error
+2023-07-22T00:01:29.741Z-error: Record has not found yet
+2023-07-22T00:01:29.744Z-error: Internal Server Error
+2023-07-22T00:01:30.339Z-error: Cannot read properties of undefined (reading 'id')
+2023-07-22T00:01:30.373Z-error: Failed updating doctor in controller
+2023-07-22T00:02:40.112Z-error: Internal Server Error
+2023-07-22T00:02:40.134Z-error: Internal Server Error
+2023-07-22T00:02:40.141Z-error: Record has not found yet
+2023-07-22T00:02:40.146Z-error: Internal Server Error
+2023-07-22T00:02:40.878Z-error: Cannot read properties of undefined (reading 'id')
+2023-07-22T00:07:44.856Z-error: Internal Server Error
+2023-07-22T00:07:44.885Z-error: Internal Server Error
+2023-07-22T00:07:44.893Z-error: Record has not found yet
+2023-07-22T00:07:44.896Z-error: Internal Server Error
+2023-07-22T00:07:45.307Z-error: Cannot read properties of undefined (reading 'id')
+2023-07-22T00:09:11.938Z-error: Internal Server Error
+2023-07-22T00:09:11.956Z-error: Internal Server Error
+2023-07-22T00:09:11.961Z-error: Record has not found yet
+2023-07-22T00:09:11.964Z-error: Internal Server Error
+2023-07-22T00:09:12.529Z-error: Cannot read properties of undefined (reading 'id')
+2023-07-22T00:10:28.875Z-error: Internal Server Error
+2023-07-22T00:10:28.896Z-error: Internal Server Error
+2023-07-22T00:10:28.903Z-error: Record has not found yet
+2023-07-22T00:10:28.907Z-error: Internal Server Error
+2023-07-22T00:10:30.009Z-error: Cannot read properties of undefined (reading 'id')
+2023-07-22T00:14:56.045Z-error: Internal Server Error
+2023-07-22T00:14:56.062Z-error: Internal Server Error
+2023-07-22T00:14:56.066Z-error: Record has not found yet
+2023-07-22T00:14:56.069Z-error: Internal Server Error
+2023-07-22T00:14:56.907Z-error: Cannot read properties of undefined (reading 'id_doctor')
+2023-07-22T00:18:27.496Z-error: Internal Server Error
+2023-07-22T00:18:27.516Z-error: Internal Server Error
+2023-07-22T00:18:27.522Z-error: Record has not found yet
+2023-07-22T00:18:27.525Z-error: Internal Server Error
+2023-07-22T00:18:28.299Z-error: Cannot read properties of undefined (reading 'id_doctor')
+2023-07-22T00:20:25.853Z-error: Internal Server Error
+2023-07-22T00:20:25.879Z-error: Internal Server Error
+2023-07-22T00:20:25.889Z-error: Record has not found yet
+2023-07-22T00:20:25.899Z-error: Internal Server Error
+2023-07-22T00:20:26.488Z-error: Cannot read properties of undefined (reading 'id_doctor')
+2023-07-22T00:26:43.062Z-error: Internal Server Error
+2023-07-22T00:26:43.095Z-error: Internal Server Error
+2023-07-22T00:26:43.102Z-error: Record has not found yet
+2023-07-22T00:26:43.104Z-error: Internal Server Error
+2023-07-22T00:26:43.392Z-error: Cannot read properties of undefined (reading 'id_doctor')
+2023-07-22T00:26:43.461Z-error: Cannot read properties of undefined (reading 'id_doctor')
+2023-07-22T00:41:00.731Z-error: Internal Server Error
+2023-07-22T00:41:00.750Z-error: Internal Server Error
+2023-07-22T00:41:00.756Z-error: Record has not found yet
+2023-07-22T00:41:00.759Z-error: Internal Server Error
+2023-07-22T00:41:01.396Z-error: Cannot read properties of undefined (reading 'id_doctors')
+2023-07-22T00:41:01.440Z-error: Cannot read properties of undefined (reading 'id_doctors')
+2023-07-22T00:42:30.769Z-error: Internal Server Error
+2023-07-22T00:42:30.782Z-error: Internal Server Error
+2023-07-22T00:42:30.790Z-error: Record has not found yet
+2023-07-22T00:42:30.794Z-error: Internal Server Error
+2023-07-22T00:42:31.549Z-error: Cannot read properties of undefined (reading 'id_doctor')
+2023-07-22T00:42:31.580Z-error: Cannot read properties of undefined (reading 'id_doctor')
+2023-07-22T00:51:35.487Z-error: Internal Server Error
+2023-07-22T00:51:35.501Z-error: Internal Server Error
+2023-07-22T00:51:35.506Z-error: Record has not found yet
+2023-07-22T00:51:35.509Z-error: Internal Server Error
+2023-07-22T00:51:36.292Z-error: Cannot read properties of undefined (reading 'id_doctor')
+2023-07-22T00:51:36.364Z-error: Cannot read properties of undefined (reading 'id_doctor')
+2023-07-22T00:57:01.262Z-error: Internal Server Error
+2023-07-22T00:57:01.282Z-error: Internal Server Error
+2023-07-22T00:57:01.298Z-error: Record has not found yet
+2023-07-22T00:57:01.302Z-error: Internal Server Error
+2023-07-22T00:57:27.720Z-error: Internal Server Error
+2023-07-22T00:57:27.736Z-error: Internal Server Error
+2023-07-22T00:57:27.742Z-error: Record has not found yet
+2023-07-22T00:57:27.745Z-error: Internal Server Error
+2023-07-22T00:58:50.127Z-error: Internal Server Error
+2023-07-22T00:58:50.142Z-error: Internal Server Error
+2023-07-22T00:58:50.147Z-error: Record has not found yet
+2023-07-22T00:58:50.150Z-error: Internal Server Error
+2023-07-22T01:00:02.279Z-error: Internal Server Error
+2023-07-22T01:00:02.314Z-error: Internal Server Error
+2023-07-22T01:00:02.321Z-error: Record has not found yet
+2023-07-22T01:00:02.324Z-error: Internal Server Error
+2023-07-22T01:00:54.431Z-error: Internal Server Error
+2023-07-22T01:00:54.446Z-error: Internal Server Error
+2023-07-22T01:00:54.451Z-error: Record has not found yet
+2023-07-22T01:00:54.453Z-error: Internal Server Error
+2023-07-22T01:00:55.062Z-error: Internal Server Error
+2023-07-22T01:06:13.465Z-error: Internal Server Error
+2023-07-22T01:06:13.487Z-error: Internal Server Error
+2023-07-22T01:06:13.493Z-error: Record has not found yet
+2023-07-22T01:06:13.496Z-error: Internal Server Error
+2023-07-22T01:06:14.188Z-error: Record has not found yet
+2023-07-22T01:06:14.203Z-error: Internal Server Error
+2023-07-22T01:06:14.208Z-error: Failed updating doctor in controller
+2023-07-22T01:06:14.211Z-error: Internal Server Error
+2023-07-22T01:06:14.220Z-error: Internal Server Error
+2023-07-22T01:16:31.930Z-error: Internal Server Error
+2023-07-22T01:16:31.947Z-error: Internal Server Error
+2023-07-22T01:16:31.959Z-error: Record has not found yet
+2023-07-22T01:16:31.962Z-error: Internal Server Error
+2023-07-22T01:16:32.192Z-error: Record has not found yet
+2023-07-22T01:16:32.203Z-error: Internal Server Error
+2023-07-22T01:16:32.206Z-error: Failed updating doctor in controller
+2023-07-22T01:16:32.208Z-error: Internal Server Error
+2023-07-22T01:16:32.213Z-error: Internal Server Error
+2023-07-22T01:19:34.959Z-error: Internal Server Error
+2023-07-22T01:19:34.997Z-error: Internal Server Error
+2023-07-22T01:19:35.008Z-error: Record has not found yet
+2023-07-22T01:19:35.016Z-error: Internal Server Error
+2023-07-22T01:19:36.118Z-error: Record has not found yet
+2023-07-22T01:19:36.127Z-error: Internal Server Error
+2023-07-22T01:19:36.131Z-error: Failed updating doctor in controller
+2023-07-22T01:19:36.133Z-error: Internal Server Error
+2023-07-22T01:19:36.138Z-error: Internal Server Error
+2023-07-22T01:21:27.739Z-error: Internal Server Error
+2023-07-22T01:21:27.757Z-error: Internal Server Error
+2023-07-22T01:21:27.763Z-error: Record has not found yet
+2023-07-22T01:21:27.767Z-error: Internal Server Error
+2023-07-22T01:21:28.748Z-error: Record has not found yet
+2023-07-22T01:21:28.757Z-error: Internal Server Error
+2023-07-22T01:21:28.761Z-error: Failed updating doctor in controller Controler
+2023-07-22T01:21:28.767Z-error: Internal Server Error
+2023-07-22T01:21:28.770Z-error: Internal Server Error
+2023-07-22T01:22:17.297Z-error: Internal Server Error
+2023-07-22T01:22:17.320Z-error: Internal Server Error
+2023-07-22T01:22:17.326Z-error: Record has not found yet
+2023-07-22T01:22:17.330Z-error: Internal Server Error
+2023-07-22T01:22:18.040Z-error: Record has not found yet
+2023-07-22T01:22:18.050Z-error: Internal Server Error
+2023-07-22T01:22:18.053Z-error: Failed updating doctor in controller
+2023-07-22T01:22:18.055Z-error: Internal Server Error
+2023-07-22T01:22:18.060Z-error: Internal Server Error
+2023-07-22T01:30:26.482Z-error: Internal Server Error
+2023-07-22T01:30:26.509Z-error: Internal Server Error
+2023-07-22T01:30:26.516Z-error: Record has not found yet
+2023-07-22T01:30:26.519Z-error: Internal Server Error
+2023-07-22T01:30:27.418Z-error: Record has not found yet
+2023-07-22T01:30:27.426Z-error: Internal Server Error
+2023-07-22T01:30:27.429Z-error: Failed updating doctor in controller
+2023-07-22T01:30:27.431Z-error: Internal Server Error
+2023-07-22T01:30:27.437Z-error: Internal Server Error
+2023-07-22T01:31:51.428Z-error: Internal Server Error
+2023-07-22T01:31:51.447Z-error: Internal Server Error
+2023-07-22T01:31:51.452Z-error: Record has not found yet
+2023-07-22T01:31:51.456Z-error: Internal Server Error
+2023-07-22T01:31:52.824Z-error: Record has not found yet
+2023-07-22T01:31:52.840Z-error: Internal Server Error
+2023-07-22T01:31:52.845Z-error: Failed updating doctor in controller
+2023-07-22T01:31:52.847Z-error: Internal Server Error
+2023-07-22T01:31:52.857Z-error: Internal Server Error
+2023-07-22T01:37:40.458Z-error: Internal Server Error
+2023-07-22T01:37:40.495Z-error: Internal Server Error
+2023-07-22T01:37:40.505Z-error: Record has not found yet
+2023-07-22T01:37:40.509Z-error: Internal Server Error
+2023-07-22T01:37:41.207Z-error: Record has not found yet
+2023-07-22T01:37:41.217Z-error: Internal Server Error
+2023-07-22T01:37:41.228Z-error: Failed updating doctor in controller
+2023-07-22T01:37:41.230Z-error: Internal Server Error
+2023-07-22T01:37:41.235Z-error: Internal Server Error
+2023-07-22T02:00:20.655Z-error: Internal Server Error
+2023-07-22T02:00:20.679Z-error: Internal Server Error
+2023-07-22T02:00:20.694Z-error: Record has not found yet
+2023-07-22T02:00:20.700Z-error: Internal Server Error
+2023-07-22T02:00:21.545Z-error: Record has not found yet
+2023-07-22T02:00:21.556Z-error: Internal Server Error
+2023-07-22T02:00:21.560Z-error: Failed updating doctor in controller
+2023-07-22T02:00:21.562Z-error: Internal Server Error
+2023-07-22T02:00:21.567Z-error: Internal Server Error
+2023-07-22T02:02:02.130Z-error: Internal Server Error
+2023-07-22T02:02:02.150Z-error: Internal Server Error
+2023-07-22T02:02:02.157Z-error: Record has not found yet
+2023-07-22T02:02:02.162Z-error: Internal Server Error
+2023-07-22T02:02:02.790Z-error: Record has not found yet
+2023-07-22T02:02:02.804Z-error: Internal Server Error
+2023-07-22T02:02:02.808Z-error: Failed updating doctor in controller
+2023-07-22T02:02:02.811Z-error: Internal Server Error
+2023-07-22T02:02:02.817Z-error: Internal Server Error
+2023-07-22T02:02:30.051Z-error: Internal Server Error
+2023-07-22T02:02:30.072Z-error: Internal Server Error
+2023-07-22T02:02:30.079Z-error: Record has not found yet
+2023-07-22T02:02:30.099Z-error: Internal Server Error
+2023-07-22T02:02:30.620Z-error: Record has not found yet
+2023-07-22T02:02:30.634Z-error: Internal Server Error
+2023-07-22T02:02:30.641Z-error: Failed updating doctor in controller
+2023-07-22T02:02:30.649Z-error: Internal Server Error
+2023-07-22T02:02:30.658Z-error: Internal Server Error
+2023-07-22T02:04:02.231Z-error: Internal Server Error
+2023-07-22T02:04:02.252Z-error: Internal Server Error
+2023-07-22T02:04:02.260Z-error: Record has not found yet
+2023-07-22T02:04:02.264Z-error: Internal Server Error
+2023-07-22T02:04:03.588Z-error: Record has not found yet
+2023-07-22T02:04:03.597Z-error: Internal Server Error
+2023-07-22T02:04:03.600Z-error: Failed updating doctor in controller
+2023-07-22T02:04:03.603Z-error: Internal Server Error
+2023-07-22T02:04:03.609Z-error: Internal Server Error
+2023-07-22T02:23:30.602Z-error: Internal Server Error
+2023-07-22T02:23:30.629Z-error: Internal Server Error
+2023-07-22T02:23:30.646Z-error: Record has not found yet
+2023-07-22T02:23:30.669Z-error: Internal Server Error
+2023-07-22T02:23:32.662Z-error: Record has not found yet
+2023-07-22T02:23:32.685Z-error: Internal Server Error
+2023-07-22T02:23:32.690Z-error: Failed updating doctor in controller
+2023-07-22T02:23:32.693Z-error: Internal Server Error
+2023-07-22T02:23:32.702Z-error: Internal Server Error
+2023-07-22T02:27:15.018Z-error: Internal Server Error
+2023-07-22T02:27:15.047Z-error: Internal Server Error
+2023-07-22T02:27:15.054Z-error: Record has not found yet
+2023-07-22T02:27:15.058Z-error: Internal Server Error
+2023-07-22T02:27:17.345Z-error: Record has not found yet
+2023-07-22T02:27:17.374Z-error: Internal Server Error
+2023-07-22T02:27:17.378Z-error: Failed updating doctor in controller
+2023-07-22T02:27:17.381Z-error: Internal Server Error
+2023-07-22T02:27:17.388Z-error: Internal Server Error
+2023-07-22T02:32:02.685Z-error: Internal Server Error
+2023-07-22T02:32:02.704Z-error: Internal Server Error
+2023-07-22T02:32:02.711Z-error: Record has not found yet
+2023-07-22T02:32:02.716Z-error: Internal Server Error
+2023-07-22T02:32:03.638Z-error: Record has not found yet
+2023-07-22T02:32:03.669Z-error: Internal Server Error
+2023-07-22T02:32:03.674Z-error: Failed updating doctor in controller
+2023-07-22T02:32:03.680Z-error: Internal Server Error
+2023-07-22T02:32:03.689Z-error: Internal Server Error
+2023-07-22T02:34:01.286Z-error: Internal Server Error
+2023-07-22T02:34:01.328Z-error: Internal Server Error
+2023-07-22T02:34:01.335Z-error: Record has not found yet
+2023-07-22T02:34:01.340Z-error: Internal Server Error
+2023-07-22T02:34:02.027Z-error: Record has not found yet
+2023-07-22T02:34:02.041Z-error: Internal Server Error
+2023-07-22T02:34:02.044Z-error: Failed updating doctor in controller
+2023-07-22T02:34:02.047Z-error: Internal Server Error
+2023-07-22T02:34:02.054Z-error: Internal Server Error
+2023-07-22T02:42:10.510Z-error: Internal Server Error
+2023-07-22T02:42:10.529Z-error: Internal Server Error
+2023-07-22T02:42:10.536Z-error: Record has not found yet
+2023-07-22T02:42:10.539Z-error: Internal Server Error
+2023-07-22T02:42:11.301Z-error: Record has not found yet
+2023-07-22T02:42:11.311Z-error: Internal Server Error
+2023-07-22T02:42:11.314Z-error: Failed updating doctor in controller
+2023-07-22T02:42:11.317Z-error: Internal Server Error
+2023-07-22T02:42:11.321Z-error: Internal Server Error
+2023-07-22T02:44:57.000Z-error: Internal Server Error
+2023-07-22T02:44:57.023Z-error: Internal Server Error
+2023-07-22T02:44:57.043Z-error: Record has not found yet
+2023-07-22T02:44:57.047Z-error: Internal Server Error
+2023-07-22T02:44:58.100Z-error: Record has not found yet
+2023-07-22T02:44:58.110Z-error: Internal Server Error
+2023-07-22T02:44:58.115Z-error: Failed updating doctor in controller
+2023-07-22T02:44:58.118Z-error: Internal Server Error
+2023-07-22T02:44:58.124Z-error: Internal Server Error
+2023-07-22T02:47:36.781Z-error: Internal Server Error
+2023-07-22T02:47:36.803Z-error: Internal Server Error
+2023-07-22T02:47:36.822Z-error: Record has not found yet
+2023-07-22T02:47:36.825Z-error: Internal Server Error
+2023-07-22T02:48:27.761Z-error: Internal Server Error
+2023-07-22T02:48:27.782Z-error: Internal Server Error
+2023-07-22T02:48:27.791Z-error: Record has not found yet
+2023-07-22T02:48:27.795Z-error: Internal Server Error
+2023-07-22T02:48:28.960Z-error: Record has not found yet
+2023-07-22T02:48:28.969Z-error: Internal Server Error
+2023-07-22T02:48:28.973Z-error: Failed updating doctor in controller
+2023-07-22T02:48:28.975Z-error: Internal Server Error
+2023-07-22T02:48:28.980Z-error: Internal Server Error
+2023-07-22T02:50:59.395Z-error: Record has not found yet
+2023-07-22T02:50:59.406Z-error: Internal Server Error
+2023-07-22T02:50:59.418Z-error: Failed updating doctor in controller
+2023-07-22T02:50:59.421Z-error: Internal Server Error
+2023-07-22T02:50:59.430Z-error: Internal Server Error
+2023-07-22T02:50:59.456Z-error: Internal Server Error
+2023-07-22T02:50:59.490Z-error: Internal Server Error
+2023-07-22T02:50:59.503Z-error: Record has not found yet
+2023-07-22T02:50:59.512Z-error: Internal Server Error
+2023-07-22T03:42:10.596Z-error: Internal Server Error
+2023-07-22T03:42:10.696Z-error: Internal Server Error
+2023-07-22T03:42:10.709Z-error: Record has not found yet
+2023-07-22T03:42:10.713Z-error: Internal Server Error
+2023-07-22T03:42:10.799Z-error: Record has not found yet
+2023-07-22T03:42:10.826Z-error: Internal Server Error
+2023-07-22T03:42:10.839Z-error: Failed updating doctor in controller
+2023-07-22T03:42:10.872Z-error: Internal Server Error
+2023-07-22T03:42:10.908Z-error: Internal Server Error
+2023-07-22T03:42:11.256Z-error: Failed to update doctor from service
+2023-07-22T03:44:36.310Z-error: Record has not found yet
+2023-07-22T03:44:36.415Z-error: Internal Server Error
+2023-07-22T03:44:36.422Z-error: Failed updating doctor in controller
+2023-07-22T03:44:36.426Z-error: Internal Server Error
+2023-07-22T03:44:36.438Z-error: Internal Server Error
+2023-07-22T03:44:37.233Z-error: Internal Server Error
+2023-07-22T03:44:37.354Z-error: Internal Server Error
+2023-07-22T03:44:37.364Z-error: Record has not found yet
+2023-07-22T03:44:37.411Z-error: Internal Server Error
+2023-07-22T03:44:38.814Z-error: Failed to update doctor from service
+2023-07-22T03:46:44.540Z-error: Internal Server Error
+2023-07-22T03:46:44.572Z-error: Internal Server Error
+2023-07-22T03:46:44.580Z-error: Record has not found yet
+2023-07-22T03:46:44.586Z-error: Internal Server Error
+2023-07-22T03:46:44.865Z-error: Failed to update doctor from service
+2023-07-22T03:46:45.619Z-error: Record has not found yet
+2023-07-22T03:46:45.673Z-error: Internal Server Error
+2023-07-22T03:46:45.715Z-error: Failed updating doctor in controller
+2023-07-22T03:46:45.723Z-error: Internal Server Error
+2023-07-22T03:46:45.740Z-error: Internal Server Error
+2023-07-22T03:52:45.003Z-error: Internal Server Error
+2023-07-22T03:52:45.038Z-error: Internal Server Error
+2023-07-22T03:52:45.045Z-error: Record has not found yet
+2023-07-22T03:52:45.050Z-error: Internal Server Error
+2023-07-22T03:52:45.944Z-error: Failed to update doctor from service
+2023-07-22T03:53:21.261Z-error: Failed to update doctor from service
+2023-07-22T04:24:07.941Z-error: Failed to update doctor from service
+2023-07-22T04:27:30.628Z-error: Failed to update doctor from service
+2023-07-23T02:35:36.354Z-error: Failed to update doctor from service
+2023-07-23T02:35:37.438Z-error: Internal Server Error
+2023-07-23T02:35:37.457Z-error: Internal Server Error
+2023-07-23T02:35:37.464Z-error: Record has not found yet
+2023-07-23T02:35:37.468Z-error: Internal Server Error
+2023-07-23T02:35:37.439Z-error: Record has not found yet
+2023-07-23T02:35:37.455Z-error: Internal Server Error
+2023-07-23T02:35:37.465Z-error: Failed updating doctor in controller
+2023-07-23T02:35:37.469Z-error: Internal Server Error
+2023-07-23T02:35:37.495Z-error: Internal Server Error
+2023-07-23T02:41:07.536Z-error: Internal Server Error
+2023-07-23T02:41:07.657Z-error: Internal Server Error
+2023-07-23T02:41:07.668Z-error: Record has not found yet
+2023-07-23T02:41:07.672Z-error: Internal Server Error
+2023-07-23T02:41:08.586Z-error: Failed to update doctor from service
+2023-07-23T02:41:08.921Z-error: Record has not found yet
+2023-07-23T02:41:09.021Z-error: Internal Server Error
+2023-07-23T02:41:09.034Z-error: Failed updating doctor in controller
+2023-07-23T02:41:09.040Z-error: Internal Server Error
+2023-07-23T02:41:09.051Z-error: Internal Server Error
+2023-07-23T02:44:39.866Z-error: Internal Server Error
+2023-07-23T02:44:39.889Z-error: Internal Server Error
+2023-07-23T02:44:39.896Z-error: Record has not found yet
+2023-07-23T02:44:39.902Z-error: Internal Server Error
+2023-07-23T02:44:40.409Z-error: Failed to update doctor from service
+2023-07-23T02:44:41.153Z-error: Record has not found yet
+2023-07-23T02:44:41.166Z-error: Internal Server Error
+2023-07-23T02:44:41.172Z-error: Failed updating doctor in controller
+2023-07-23T02:44:41.180Z-error: Internal Server Error
+2023-07-23T02:44:41.188Z-error: Internal Server Error
+2023-07-23T02:50:35.303Z-error: Internal Server Error
+2023-07-23T02:50:35.330Z-error: Internal Server Error
+2023-07-23T02:50:35.337Z-error: Record has not found yet
+2023-07-23T02:50:35.341Z-error: Internal Server Error
+2023-07-23T02:50:36.523Z-error: Failed to update doctor from service
+2023-07-23T02:50:36.536Z-error: Failed to update doctor from service
+2023-07-23T02:50:37.079Z-error: Record has not found yet
+2023-07-23T02:50:37.101Z-error: Internal Server Error
+2023-07-23T02:50:37.107Z-error: Failed updating doctor in controller
+2023-07-23T02:50:37.111Z-error: Internal Server Error
+2023-07-23T02:50:37.119Z-error: Internal Server Error
+2023-07-23T02:51:59.485Z-error: Internal Server Error
+2023-07-23T02:51:59.507Z-error: Internal Server Error
+2023-07-23T02:51:59.512Z-error: Record has not found yet
+2023-07-23T02:51:59.515Z-error: Internal Server Error
+2023-07-23T02:52:00.090Z-error: Record has not found yet
+2023-07-23T02:52:00.110Z-error: Internal Server Error
+2023-07-23T02:52:00.118Z-error: Failed updating doctor in controller
+2023-07-23T02:52:00.123Z-error: Internal Server Error
+2023-07-23T02:52:00.138Z-error: Internal Server Error
+2023-07-23T02:52:00.369Z-error: Failed to update doctor from service
+2023-07-23T02:52:00.381Z-error: Failed to update doctor from service
+2023-07-23T02:58:50.026Z-error: Internal Server Error
+2023-07-23T02:58:50.046Z-error: Internal Server Error
+2023-07-23T02:58:50.052Z-error: Record has not found yet
+2023-07-23T02:58:50.070Z-error: Internal Server Error
+2023-07-23T02:58:50.636Z-error: Record has not found yet
+2023-07-23T02:58:50.675Z-error: Internal Server Error
+2023-07-23T02:58:50.681Z-error: Failed updating doctor in controller
+2023-07-23T02:58:50.685Z-error: Internal Server Error
+2023-07-23T02:58:50.694Z-error: Internal Server Error
+2023-07-23T02:58:50.829Z-error: Failed to update doctor from service
+2023-07-23T02:58:50.855Z-error: Failed to update doctor from service
+2023-07-23T03:00:09.162Z-error: Internal Server Error
+2023-07-23T03:00:09.181Z-error: Internal Server Error
+2023-07-23T03:00:09.187Z-error: Record has not found yet
+2023-07-23T03:00:09.191Z-error: Internal Server Error
+2023-07-23T03:00:09.574Z-error: Record has not found yet
+2023-07-23T03:00:09.587Z-error: Internal Server Error
+2023-07-23T03:00:09.592Z-error: Failed updating doctor in controller
+2023-07-23T03:00:09.596Z-error: Internal Server Error
+2023-07-23T03:00:09.603Z-error: Internal Server Error
+2023-07-23T03:00:09.973Z-error: Failed to update doctor from service
+2023-07-23T03:00:09.991Z-error: Failed to update doctor from service
+2023-07-23T03:02:03.011Z-error: Internal Server Error
+2023-07-23T03:02:03.039Z-error: Internal Server Error
+2023-07-23T03:02:03.045Z-error: Record has not found yet
+2023-07-23T03:02:03.049Z-error: Internal Server Error
+2023-07-23T03:02:03.168Z-error: Record has not found yet
+2023-07-23T03:02:03.198Z-error: Internal Server Error
+2023-07-23T03:02:03.217Z-error: Failed updating doctor in controller
+2023-07-23T03:02:03.227Z-error: Internal Server Error
+2023-07-23T03:02:03.238Z-error: Internal Server Error
+2023-07-23T03:02:03.727Z-error: Failed to update doctor from service
+2023-07-23T03:02:03.741Z-error: Failed to update doctor from service
+2023-07-23T03:04:44.064Z-error: Internal Server Error
+2023-07-23T03:04:44.083Z-error: Internal Server Error
+2023-07-23T03:04:44.089Z-error: Record has not found yet
+2023-07-23T03:04:44.093Z-error: Internal Server Error
+2023-07-23T03:04:44.580Z-error: Record has not found yet
+2023-07-23T03:04:44.602Z-error: Internal Server Error
+2023-07-23T03:04:44.607Z-error: Failed updating doctor in controller
+2023-07-23T03:04:44.611Z-error: Internal Server Error
+2023-07-23T03:04:44.618Z-error: Internal Server Error
+2023-07-23T03:04:44.842Z-error: Failed to update doctor from service
+2023-07-23T03:04:44.877Z-error: Failed to update doctor from service
+2023-07-23T03:08:05.935Z-error: Internal Server Error
+2023-07-23T03:08:05.953Z-error: Internal Server Error
+2023-07-23T03:08:05.960Z-error: Record has not found yet
+2023-07-23T03:08:05.963Z-error: Internal Server Error
+2023-07-23T03:08:06.418Z-error: Record has not found yet
+2023-07-23T03:08:06.434Z-error: Internal Server Error
+2023-07-23T03:08:06.440Z-error: Failed updating doctor in controller
+2023-07-23T03:08:06.443Z-error: Internal Server Error
+2023-07-23T03:08:06.456Z-error: Internal Server Error
+2023-07-23T03:08:06.858Z-error: Failed to update doctor from service
+2023-07-23T03:08:06.874Z-error: Failed to update doctor from service
+2023-07-23T03:10:33.728Z-error: Internal Server Error
+2023-07-23T03:10:33.748Z-error: Internal Server Error
+2023-07-23T03:10:33.770Z-error: Record has not found yet
+2023-07-23T03:10:33.775Z-error: Internal Server Error
+2023-07-23T03:10:33.985Z-error: Record has not found yet
+2023-07-23T03:10:34.004Z-error: Internal Server Error
+2023-07-23T03:10:34.011Z-error: Failed updating doctor in controller
+2023-07-23T03:10:34.015Z-error: Internal Server Error
+2023-07-23T03:10:34.023Z-error: Internal Server Error
+2023-07-23T03:10:34.620Z-error: Failed to update doctor from service
+2023-07-23T03:10:34.636Z-error: Failed to update doctor from service
+2023-07-23T03:13:41.863Z-error: Internal Server Error
+2023-07-23T03:13:41.886Z-error: Internal Server Error
+2023-07-23T03:13:41.893Z-error: Record has not found yet
+2023-07-23T03:13:41.896Z-error: Internal Server Error
+2023-07-23T03:13:42.407Z-error: Record has not found yet
+2023-07-23T03:13:42.447Z-error: Internal Server Error
+2023-07-23T03:13:42.455Z-error: Failed updating doctor in controller
+2023-07-23T03:13:42.458Z-error: Internal Server Error
+2023-07-23T03:13:42.466Z-error: Internal Server Error
+2023-07-23T03:13:42.456Z-error: Failed to update doctor from service
+2023-07-23T03:13:42.527Z-error: Failed to update doctor from service
+2023-07-23T03:16:03.059Z-error: Internal Server Error
+2023-07-23T03:16:03.079Z-error: Internal Server Error
+2023-07-23T03:16:03.101Z-error: Record has not found yet
+2023-07-23T03:16:03.104Z-error: Internal Server Error
+2023-07-23T03:16:03.399Z-error: Record has not found yet
+2023-07-23T03:16:03.413Z-error: Internal Server Error
+2023-07-23T03:16:03.418Z-error: Failed updating doctor in controller
+2023-07-23T03:16:03.421Z-error: Internal Server Error
+2023-07-23T03:16:03.428Z-error: Internal Server Error
+2023-07-23T03:16:03.418Z-error: Failed to update doctor from service
+2023-07-23T03:16:03.438Z-error: Failed to update doctor from service
+2023-07-23T03:16:53.143Z-error: Record has not found yet
+2023-07-23T03:16:53.160Z-error: Internal Server Error
+2023-07-23T03:16:53.166Z-error: Failed updating doctor in controller
+2023-07-23T03:16:53.178Z-error: Internal Server Error
+2023-07-23T03:16:53.185Z-error: Internal Server Error
+2023-07-23T03:16:53.200Z-error: Internal Server Error
+2023-07-23T03:16:53.226Z-error: Internal Server Error
+2023-07-23T03:16:53.234Z-error: Record has not found yet
+2023-07-23T03:16:53.238Z-error: Internal Server Error
+2023-07-23T03:16:53.777Z-error: Failed to update doctor from service
+2023-07-23T03:16:53.797Z-error: Failed to update doctor from service
+2023-07-23T03:17:29.260Z-error: Internal Server Error
+2023-07-23T03:17:29.281Z-error: Internal Server Error
+2023-07-23T03:17:29.288Z-error: Record has not found yet
+2023-07-23T03:17:29.291Z-error: Internal Server Error
+2023-07-23T03:17:30.145Z-error: Record has not found yet
+2023-07-23T03:17:30.160Z-error: Internal Server Error
+2023-07-23T03:17:30.165Z-error: Failed updating doctor in controller
+2023-07-23T03:17:30.206Z-error: Internal Server Error
+2023-07-23T03:17:30.221Z-error: Internal Server Error
+2023-07-23T03:17:30.582Z-error: Failed to update doctor from service
+2023-07-23T03:17:30.599Z-error: Failed to update doctor from service
+2023-07-23T03:20:19.742Z-error: Internal Server Error
+2023-07-23T03:20:19.774Z-error: Internal Server Error
+2023-07-23T03:20:19.781Z-error: Record has not found yet
+2023-07-23T03:20:19.786Z-error: Internal Server Error
+2023-07-23T03:20:20.488Z-error: Record has not found yet
+2023-07-23T03:20:20.501Z-error: Internal Server Error
+2023-07-23T03:20:20.505Z-error: Failed updating doctor in controller
+2023-07-23T03:20:20.507Z-error: Internal Server Error
+2023-07-23T03:20:20.514Z-error: Internal Server Error
+2023-07-23T03:20:20.906Z-error: Failed to update doctor from service
+2023-07-23T03:20:20.919Z-error: Failed to update doctor from service
+2023-07-23T03:21:26.554Z-error: Internal Server Error
+2023-07-23T03:21:26.574Z-error: Internal Server Error
+2023-07-23T03:21:26.581Z-error: Record has not found yet
+2023-07-23T03:21:26.586Z-error: Internal Server Error
+2023-07-23T03:21:27.039Z-error: Failed to update doctor from service
+2023-07-23T03:21:27.060Z-error: Failed to update doctor from service
+2023-07-23T03:21:27.273Z-error: Record has not found yet
+2023-07-23T03:21:27.288Z-error: Internal Server Error
+2023-07-23T03:21:27.291Z-error: Failed updating doctor in controller
+2023-07-23T03:21:27.294Z-error: Internal Server Error
+2023-07-23T03:21:27.309Z-error: Internal Server Error
+2023-07-23T03:22:03.517Z-error: Internal Server Error
+2023-07-23T03:22:03.548Z-error: Internal Server Error
+2023-07-23T03:22:03.553Z-error: Record has not found yet
+2023-07-23T03:22:03.556Z-error: Internal Server Error
+2023-07-23T03:22:04.411Z-error: Record has not found yet
+2023-07-23T03:22:04.375Z-error: Failed to update doctor from service
+2023-07-23T03:22:04.424Z-error: Internal Server Error
+2023-07-23T03:22:04.428Z-error: Failed updating doctor in controller
+2023-07-23T03:22:04.431Z-error: Internal Server Error
+2023-07-23T03:22:04.440Z-error: Internal Server Error
+2023-07-23T03:22:04.397Z-error: Failed to update doctor from service
+2023-07-23T03:24:11.132Z-error: Internal Server Error
+2023-07-23T03:24:11.149Z-error: Internal Server Error
+2023-07-23T03:24:11.155Z-error: Record has not found yet
+2023-07-23T03:24:11.159Z-error: Internal Server Error
+2023-07-23T03:24:11.389Z-error: Record has not found yet
+2023-07-23T03:24:11.406Z-error: Internal Server Error
+2023-07-23T03:24:11.440Z-error: Failed updating doctor in controller
+2023-07-23T03:24:11.443Z-error: Internal Server Error
+2023-07-23T03:24:11.453Z-error: Internal Server Error
+2023-07-23T03:24:11.997Z-error: Failed to update doctor from service
+2023-07-23T03:24:12.026Z-error: Failed to update doctor from service
+2023-07-23T03:25:10.559Z-error: Internal Server Error
+2023-07-23T03:25:10.580Z-error: Internal Server Error
+2023-07-23T03:25:10.586Z-error: Record has not found yet
+2023-07-23T03:25:10.589Z-error: Internal Server Error
+2023-07-23T03:25:10.994Z-error: Record has not found yet
+2023-07-23T03:25:11.009Z-error: Internal Server Error
+2023-07-23T03:25:11.018Z-error: Failed updating doctor in controller
+2023-07-23T03:25:11.022Z-error: Internal Server Error
+2023-07-23T03:25:11.030Z-error: Internal Server Error
+2023-07-23T03:25:11.243Z-error: Failed to update doctor from service
+2023-07-23T03:25:11.268Z-error: Failed to update doctor from service
+2023-07-23T03:26:13.239Z-error: Internal Server Error
+2023-07-23T03:26:13.263Z-error: Internal Server Error
+2023-07-23T03:26:13.269Z-error: Record has not found yet
+2023-07-23T03:26:13.272Z-error: Internal Server Error
+2023-07-23T03:26:13.278Z-error: Record has not found yet
+2023-07-23T03:26:13.294Z-error: Internal Server Error
+2023-07-23T03:26:13.321Z-error: Failed updating doctor in controller
+2023-07-23T03:26:13.325Z-error: Internal Server Error
+2023-07-23T03:26:13.342Z-error: Internal Server Error
+2023-07-23T03:26:14.104Z-error: Failed to update doctor from service
+2023-07-23T03:26:14.117Z-error: Failed to update doctor from service
+2023-07-23T03:26:45.961Z-error: Internal Server Error
+2023-07-23T03:26:45.989Z-error: Internal Server Error
+2023-07-23T03:26:45.996Z-error: Record has not found yet
+2023-07-23T03:26:45.999Z-error: Internal Server Error
+2023-07-23T03:26:46.432Z-error: Record has not found yet
+2023-07-23T03:26:46.472Z-error: Internal Server Error
+2023-07-23T03:26:46.489Z-error: Failed updating doctor in controller
+2023-07-23T03:26:46.493Z-error: Internal Server Error
+2023-07-23T03:26:46.508Z-error: Internal Server Error
+2023-07-23T03:27:37.223Z-error: Internal Server Error
+2023-07-23T03:27:37.241Z-error: Internal Server Error
+2023-07-23T03:27:37.247Z-error: Record has not found yet
+2023-07-23T03:27:37.251Z-error: Internal Server Error
+2023-07-23T03:27:37.719Z-error: Record has not found yet
+2023-07-23T03:27:37.757Z-error: Internal Server Error
+2023-07-23T03:27:37.804Z-error: Failed updating doctor in controller
+2023-07-23T03:27:37.808Z-error: Internal Server Error
+2023-07-23T03:27:37.828Z-error: Internal Server Error
+2023-07-23T03:29:33.175Z-error: Internal Server Error
+2023-07-23T03:29:33.193Z-error: Internal Server Error
+2023-07-23T03:29:33.200Z-error: Record has not found yet
+2023-07-23T03:29:33.212Z-error: Internal Server Error
+2023-07-23T03:29:33.530Z-error: Record has not found yet
+2023-07-23T03:29:33.554Z-error: Internal Server Error
+2023-07-23T03:29:33.575Z-error: Failed updating doctor in controller
+2023-07-23T03:29:33.579Z-error: Internal Server Error
+2023-07-23T03:29:33.587Z-error: Internal Server Error
+2023-07-23T03:29:33.973Z-error: Failed to update doctor from service
+2023-07-23T03:29:33.993Z-error: Failed to update doctor from service
+2023-07-23T03:32:49.510Z-error: Internal Server Error
+2023-07-23T03:32:49.532Z-error: Internal Server Error
+2023-07-23T03:32:49.539Z-error: Record has not found yet
+2023-07-23T03:32:49.544Z-error: Internal Server Error
+2023-07-23T03:32:50.010Z-error: Failed to update doctor from service
+2023-07-23T03:32:50.022Z-error: Failed to update doctor from service
+2023-07-23T03:33:45.294Z-error: Internal Server Error
+2023-07-23T03:33:45.322Z-error: Internal Server Error
+2023-07-23T03:33:45.337Z-error: Record has not found yet
+2023-07-23T03:33:45.344Z-error: Internal Server Error
+2023-07-23T03:33:46.075Z-error: Failed to update doctor from service
+2023-07-23T03:42:17.048Z-error: Internal Server Error
+2023-07-23T03:42:17.071Z-error: Internal Server Error
+2023-07-23T03:42:17.078Z-error: Record has not found yet
+2023-07-23T03:42:17.082Z-error: Internal Server Error
+2023-07-23T03:42:18.093Z-error: Failed to update doctor from service
+2023-07-23T03:42:18.113Z-error: Failed to update doctor from service
+2023-07-23T03:45:32.407Z-error: Internal Server Error
+2023-07-23T03:45:32.426Z-error: Internal Server Error
+2023-07-23T03:45:32.433Z-error: Record has not found yet
+2023-07-23T03:45:32.436Z-error: Internal Server Error
+2023-07-23T03:45:33.147Z-error: Failed to update doctor from service
+2023-07-23T03:45:33.160Z-error: Failed to update doctor from service
+2023-07-23T03:49:43.601Z-error: Internal Server Error
+2023-07-23T03:49:43.622Z-error: Internal Server Error
+2023-07-23T03:49:43.628Z-error: Record has not found yet
+2023-07-23T03:49:43.632Z-error: Internal Server Error
+2023-07-23T03:49:44.044Z-error: Failed to update doctor from service
+2023-07-23T03:49:44.055Z-error: Failed to update doctor from service
+2023-07-23T03:52:58.494Z-error: Failed to update doctor from service
+2023-07-23T03:52:58.514Z-error: Failed to update doctor from service
+2023-07-23T03:52:58.678Z-error: Internal Server Error
+2023-07-23T03:52:58.703Z-error: Internal Server Error
+2023-07-23T03:52:58.715Z-error: Record has not found yet
+2023-07-23T03:52:58.719Z-error: Internal Server Error
+2023-07-23T03:55:45.341Z-error: Internal Server Error
+2023-07-23T03:55:45.355Z-error: Internal Server Error
+2023-07-23T03:55:45.360Z-error: Record has not found yet
+2023-07-23T03:55:45.364Z-error: Internal Server Error
+2023-07-23T03:55:45.596Z-error: Failed to update doctor from service
+2023-07-23T03:55:45.609Z-error: Failed to update doctor from service
+2023-07-23T03:56:40.486Z-error: Internal Server Error
+2023-07-23T03:56:40.503Z-error: Internal Server Error
+2023-07-23T03:56:40.510Z-error: Record has not found yet
+2023-07-23T03:56:40.513Z-error: Internal Server Error
+2023-07-23T03:56:40.914Z-error: Failed to update doctor from service
+2023-07-23T03:56:40.925Z-error: Failed to update doctor from service
+2023-07-23T03:58:23.418Z-error: Internal Server Error
+2023-07-23T03:58:23.440Z-error: Internal Server Error
+2023-07-23T03:58:23.447Z-error: Record has not found yet
+2023-07-23T03:58:23.450Z-error: Internal Server Error
+2023-07-23T03:58:24.397Z-error: Failed to update doctor from service
+2023-07-23T03:58:24.412Z-error: Failed to update doctor from service
+2023-07-23T04:01:12.244Z-error: Internal Server Error
+2023-07-23T04:01:12.260Z-error: Internal Server Error
+2023-07-23T04:01:12.272Z-error: Record has not found yet
+2023-07-23T04:01:12.274Z-error: Internal Server Error
+2023-07-23T04:01:12.738Z-error: Failed to update doctor from service
+2023-07-23T04:01:12.753Z-error: Failed to update doctor from service
+2023-07-23T04:03:32.264Z-error: Internal Server Error
+2023-07-23T04:03:32.280Z-error: Internal Server Error
+2023-07-23T04:03:32.285Z-error: Record has not found yet
+2023-07-23T04:03:32.288Z-error: Internal Server Error
+2023-07-23T04:03:32.917Z-error: Failed to update doctor from service
+2023-07-23T04:03:32.931Z-error: Failed to update doctor from service
+2023-07-23T04:06:36.580Z-error: Internal Server Error
+2023-07-23T04:06:36.596Z-error: Internal Server Error
+2023-07-23T04:06:36.600Z-error: Record has not found yet
+2023-07-23T04:06:36.604Z-error: Internal Server Error
+2023-07-23T04:06:36.982Z-error: Failed to update doctor from service
+2023-07-23T04:06:36.996Z-error: Failed to update doctor from service
+2023-07-23T04:16:40.561Z-error: Internal Server Error
+2023-07-23T04:16:40.579Z-error: Internal Server Error
+2023-07-23T04:16:40.586Z-error: Record has not found yet
+2023-07-23T04:16:40.591Z-error: Internal Server Error
+2023-07-23T04:16:41.158Z-error: Failed to update doctor from service
+2023-07-23T04:16:41.175Z-error: Failed to update doctor from service
+2023-07-23T04:23:02.278Z-error: Internal Server Error
+2023-07-23T04:23:02.300Z-error: Internal Server Error
+2023-07-23T04:23:02.309Z-error: Record has not found yet
+2023-07-23T04:23:02.313Z-error: Internal Server Error
+2023-07-23T04:23:03.124Z-error: Failed to update doctor from service
+2023-07-23T04:23:03.140Z-error: Failed to update doctor from service
+2023-07-23T04:27:59.002Z-error: Internal Server Error
+2023-07-23T04:27:59.058Z-error: Internal Server Error
+2023-07-23T04:27:59.066Z-error: Record has not found yet
+2023-07-23T04:27:59.070Z-error: Internal Server Error
+2023-07-23T04:28:00.175Z-error: Failed to update doctor from service
+2023-07-23T04:32:19.370Z-error: Internal Server Error
+2023-07-23T04:32:19.387Z-error: Internal Server Error
+2023-07-23T04:32:19.392Z-error: Record has not found yet
+2023-07-23T04:32:19.395Z-error: Internal Server Error
+2023-07-23T04:32:19.902Z-error: Failed to update doctor from service
+2023-07-23T04:40:08.539Z-error: Failed to update doctor from service
+2023-07-23T04:40:09.582Z-error: Internal Server Error
+2023-07-23T04:40:09.623Z-error: Record has not found yet
+2023-07-23T04:40:09.625Z-error: Internal Server Error
+2023-07-23T04:40:09.629Z-error: Failed updating doctor in controller
+2023-07-23T04:40:09.631Z-error: Internal Server Error
+2023-07-23T04:40:09.637Z-error: Internal Server Error
+2023-07-23T04:42:40.314Z-error: Failed to update doctor from service
+2023-07-23T04:42:40.868Z-error: Internal Server Error
+2023-07-23T04:42:40.903Z-error: Record has not found yet
+2023-07-23T04:42:40.906Z-error: Internal Server Error
+2023-07-23T04:42:40.910Z-error: Failed updating doctor in controller
+2023-07-23T04:42:40.913Z-error: Internal Server Error
+2023-07-23T04:42:40.920Z-error: Internal Server Error
+2023-07-23T04:46:03.233Z-error: Failed to update doctor from service
+2023-07-23T04:46:03.820Z-error: Record has not found yet
+2023-07-23T04:46:03.829Z-error: Internal Server Error
+2023-07-23T04:46:03.833Z-error: Failed updating doctor in controller
+2023-07-23T04:46:03.835Z-error: Internal Server Error
+2023-07-23T04:46:03.840Z-error: Internal Server Error
+2023-07-24T01:01:28.963Z-error: Failed to get appointment from service
+2023-07-24T01:02:46.793Z-error: Failed to get appointment from service
+2023-07-24T01:03:17.979Z-error: Failed to get appointment from service
+2023-07-24T01:12:28.928Z-error: Failed to get appointment from service
+2023-07-24T01:58:02.587Z-error: Failed to get appointment from service
+2023-07-24T02:52:23.061Z-error: Failed to get appointment from service
+2023-07-24T02:57:29.868Z-error: Failed to get appointment from service
+2023-07-24T03:00:10.302Z-error: Failed to get appointment from service
+2023-07-24T03:00:33.640Z-error: Failed to get appointment from service
+2023-07-24T03:01:50.054Z-error: Failed to get appointment from service
+2023-07-24T03:03:29.281Z-error: Failed to get appointment from service
+2023-07-24T03:04:37.117Z-error: Failed to get appointment from service
+2023-07-24T03:11:14.292Z-error: Failed to get appointment from service
+2023-07-24T03:15:56.780Z-error: Failed to get appointment from service
+2023-07-24T03:19:01.642Z-error: Failed to get appointment from service
+2023-07-24T03:19:46.119Z-error: Failed to get appointment from service
+2023-07-24T03:46:39.158Z-error: Failed to get appointment from service
+2023-07-24T03:46:39.174Z-error: Failed to update appointment from service
+2023-07-24T03:54:12.624Z-error: Failed to update doctor from service
+2023-07-24T03:54:13.139Z-error: Record has not found yet
+2023-07-24T03:54:13.159Z-error: Internal Server Error
+2023-07-24T03:54:13.175Z-error: Failed updating doctor in controller
+2023-07-24T03:54:13.180Z-error: Internal Server Error
+2023-07-24T03:54:13.192Z-error: Internal Server Error
+2023-07-24T03:54:13.539Z-error: Internal Server Error
+2023-07-24T03:54:13.559Z-error: Internal Server Error
+2023-07-24T03:54:13.566Z-error: Record has not found yet
+2023-07-24T03:54:13.570Z-error: Internal Server Error
+2023-07-24T03:54:13.644Z-error: Failed to get appointment from service
+2023-07-24T03:54:13.674Z-error: Failed to update appointment from service
+2023-07-25T15:14:47.913Z-error: Failed to update doctor from service
+2023-07-25T15:14:48.177Z-error: Internal Server Error
+2023-07-25T15:14:48.198Z-error: Internal Server Error
+2023-07-25T15:14:48.209Z-error: Record has not found yet
+2023-07-25T15:14:48.212Z-error: Internal Server Error
+2023-07-25T15:14:48.837Z-error: Record has not found yet
+2023-07-25T15:14:48.854Z-error: Internal Server Error
+2023-07-25T15:14:48.861Z-error: Failed updating doctor in controller
+2023-07-25T15:14:48.863Z-error: Internal Server Error
+2023-07-25T15:14:48.872Z-error: Internal Server Error
+2023-07-25T15:14:49.050Z-error: Failed to get appointment from service
+2023-07-25T15:14:49.057Z-error: Failed to update appointment from service
+2023-07-25T15:16:54.942Z-error: Internal Server Error
+2023-07-25T15:16:54.957Z-error: Internal Server Error
+2023-07-25T15:16:54.963Z-error: Record has not found yet
+2023-07-25T15:16:54.967Z-error: Internal Server Error
+2023-07-25T15:16:55.265Z-error: Record has not found yet
+2023-07-25T15:16:55.285Z-error: Internal Server Error
+2023-07-25T15:16:55.290Z-error: Failed updating doctor in controller
+2023-07-25T15:16:55.293Z-error: Internal Server Error
+2023-07-25T15:16:55.308Z-error: Internal Server Error
+2023-07-25T15:16:55.654Z-error: Failed to get appointment from service
+2023-07-25T15:16:55.668Z-error: Failed to update appointment from service
+2023-07-25T15:16:55.730Z-error: Failed to update doctor from service
+2023-07-25T15:18:06.641Z-error: Internal Server Error
+2023-07-25T15:18:06.671Z-error: Internal Server Error
+2023-07-25T15:18:06.678Z-error: Record has not found yet
+2023-07-25T15:18:06.681Z-error: Internal Server Error
+2023-07-25T15:18:07.669Z-error: Record has not found yet
+2023-07-25T15:18:07.687Z-error: Internal Server Error
+2023-07-25T15:18:07.692Z-error: Failed updating doctor in controller
+2023-07-25T15:18:07.695Z-error: Internal Server Error
+2023-07-25T15:18:07.703Z-error: Internal Server Error
+2023-07-25T15:18:07.804Z-error: Failed to update doctor from service
+2023-07-25T15:54:17.064Z-error: Failed to update doctor from service
+2023-07-25T15:54:17.152Z-error: Internal Server Error
+2023-07-25T15:54:17.197Z-error: Internal Server Error
+2023-07-25T15:54:17.205Z-error: Record has not found yet
+2023-07-25T15:54:17.209Z-error: Internal Server Error
+2023-07-25T15:54:17.406Z-error: Record has not found yet
+2023-07-25T15:54:17.418Z-error: Internal Server Error
+2023-07-25T15:54:17.423Z-error: Failed updating doctor in controller
+2023-07-25T15:54:17.426Z-error: Internal Server Error
+2023-07-25T15:54:17.434Z-error: Internal Server Error
+2023-07-25T15:54:18.234Z-error: Failed to get appointment from service
+2023-07-25T15:54:18.242Z-error: Failed to update appointment from service
