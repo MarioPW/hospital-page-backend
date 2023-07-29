@@ -128,7 +128,7 @@ const appointmentMaped: Appointment = {
     });
      it("should throw and error if appointment creation fails", async () => {
        // Mock Process
-       const error1 = new Error("Failed to create appointment from service");
+       const error1 = new Error("Failed to create appointment in service");
        (appointmentRepository.createAppointment as jest.Mock).mockRejectedValue(error1);
 
        await expect(appointmentSerivce.createAppointment(appointmentReq)).rejects.toThrowError(

@@ -44,7 +44,7 @@ export class AppointmentControllerImpl implements AppointmentController {
                 if (error instanceof CustomError){
                     res.status(400).json({
                         error_name: error.name,
-                        message: "Failed Creating appointment"
+                        message: "Failed Creating Appointment"
                     })
                 } else {
                     res.status(400).json({
@@ -67,7 +67,7 @@ export class AppointmentControllerImpl implements AppointmentController {
             if (appointment) {
                 res.status(200).json(appointment)
             } else {
-                throw new CustomError( 'RecordNotFoundError', 'Record has not found yet', 'citas')
+                throw new CustomError( 'RecordNotFoundError', 'Record has not found yet', 'appointments')
             }
         } catch (error) {
             logger.error(error)
@@ -79,8 +79,6 @@ export class AppointmentControllerImpl implements AppointmentController {
         }       
     }
 
-    // Tarea: Terminar el crud de citas y pacientes -- Upadte Appoinment, Delete Appoinment --
-
     public async updateAppointment (req: Request, res: Response): Promise<void> {
         try{
             const id = parseInt(req.params.id)
@@ -89,7 +87,7 @@ export class AppointmentControllerImpl implements AppointmentController {
             if (appointment) {
                 res.status(200).json(appointment)
             } else {
-                throw new CustomError ('UpdateError', 'Failed updating appointment in controller', 'citas')
+                throw new CustomError ('UpdateError', 'Failed updating appointment in controller', 'appointments')
             }
         } catch (error) {
             logger.error(error)

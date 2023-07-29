@@ -1134,3 +1134,219 @@
 2023-07-25T15:54:17.434Z-error: Internal Server Error
 2023-07-25T15:54:18.234Z-error: Failed to get appointment from service
 2023-07-25T15:54:18.242Z-error: Failed to update appointment from service
+2023-07-26T15:46:37.381Z-error: Unexpected token n in JSON at position 4
+2023-07-26T15:47:12.072Z-error: Unexpected token n in JSON at position 4
+2023-07-26T15:51:12.562Z-error: Unexpected token n in JSON at position 4
+2023-07-26T15:51:37.782Z-error: Unexpected token n in JSON at position 4
+2023-07-26T15:53:17.188Z-error: Unexpected token n in JSON at position 4
+2023-07-26T15:53:24.671Z-error: Unexpected token n in JSON at position 4
+2023-07-26T15:53:30.857Z-error: Unexpected token n in JSON at position 4
+2023-07-26T15:53:52.680Z-error: Unexpected token n in JSON at position 4
+2023-07-26T15:55:21.200Z-error: Unexpected token n in JSON at position 11
+2023-07-26T15:55:27.018Z-error: Unexpected token } in JSON at position 144
+2023-07-26T15:55:55.408Z-error: Unexpected token ' in JSON at position 132
+2023-07-26T15:58:15.902Z-error: Unexpected token n in JSON at position 4
+2023-07-27T03:33:34.525Z-error: Failed to create doctor in repository
+2023-07-27T03:37:27.676Z-error: Failed to create doctor in repository
+2023-07-27T03:37:52.786Z-error: Failed to create doctor in repository
+2023-07-27T03:42:26.833Z-error: Failed to create doctor in repository
+2023-07-27T03:43:48.130Z-error: Failed to create doctor in repository
+2023-07-27T03:45:51.737Z-error: Failed to create doctor in repository
+2023-07-27T03:46:47.192Z-error: Failed to create doctor in repository
+2023-07-27T03:49:57.607Z-error: Failed to create doctor in repository
+2023-07-27T03:53:23.011Z-error: Failed to create doctor in repository
+2023-07-27T04:04:30.626Z-error: Failed to create doctor in repository
+2023-07-27T04:04:35.070Z-error: Failed to create doctor in repository
+2023-07-27T04:08:31.303Z-error: Failed to create doctor in repository
+2023-07-27T04:09:42.626Z-error: Failed to create doctor in repository
+2023-07-27T04:11:14.472Z-error: Failed to create appointment from service
+2023-07-27T04:12:29.617Z-error: Failed to create appointment from service
+2023-07-27T04:13:58.712Z-error: Failed to create appointment from service
+2023-07-27T04:14:05.214Z-error: Failed to create appointment from service
+2023-07-27T04:15:01.167Z-error: Id must be a number
+2023-07-27T04:15:54.845Z-error: Id must be a number
+2023-07-27T04:16:40.474Z-error: Id must be a number
+2023-07-27T04:16:59.260Z-error: Id must be a number
+2023-07-27T05:01:16.503Z-error: Failed get doctor by id in repository
+2023-07-27T05:01:16.522Z-error: Record has not found yet
+2023-07-27T05:01:49.484Z-error: Failed get doctor by id in repository
+2023-07-27T05:01:49.485Z-error: Record has not found yet
+2023-07-27T05:02:12.186Z-error: Failed get doctor by id in repository
+2023-07-27T05:02:12.188Z-error: Record has not found yet
+2023-07-27T05:02:47.936Z-error: Failed get doctor by id in repository
+2023-07-27T05:02:47.938Z-error: Record has not found yet
+2023-07-27T05:03:24.098Z-error: Failed get doctor by id in repository
+2023-07-27T05:03:24.100Z-error: Record has not found yet
+2023-07-27T05:07:19.975Z-error: Failed get doctor by id in repository
+2023-07-27T05:07:19.976Z-error: Record has not found yet
+2023-07-27T05:13:47.154Z-error: Failed get doctor by id in repository
+2023-07-27T05:13:47.181Z-error: Record has not found yet
+2023-07-27T05:14:38.278Z-error: Failed get doctor by id in repository
+2023-07-27T05:14:38.279Z-error: Record has not found yet
+2023-07-27T05:15:04.775Z-error: Failed get doctor by id in the repository
+2023-07-27T05:15:04.778Z-error: Record has not been found yet
+2023-07-27T05:18:17.831Z-error: Failed get doctor by id in the repository
+2023-07-27T05:18:17.837Z-error: Record has not been found yet
+2023-07-27T15:03:08.236Z-error: Failed get doctor by id in the repository
+2023-07-27T15:03:08.261Z-error: Failed to delete doctor from service
+2023-07-27T15:03:08.262Z-error: Failed to delete doctor from service
+2023-07-27T16:07:48.661Z-error: Failed get doctor by id in the repository
+2023-07-27T16:07:48.683Z-error: Failed to delete doctor from service
+2023-07-27T16:07:48.685Z-error: Failed to delete doctor from service
+2023-07-27T16:08:58.373Z-error: Failed get doctor by id in the repository
+2023-07-27T16:08:58.375Z-error: Failed to delete doctor from service
+2023-07-27T16:08:58.376Z-error: Failed to delete doctor from service
+2023-07-27T16:09:07.087Z-error: Failed get doctor by id in the repository
+2023-07-27T16:09:07.089Z-error: Failed to delete doctor from service
+2023-07-27T16:09:07.091Z-error: Failed to delete doctor from service
+2023-07-27T16:09:24.892Z-error: Failed get doctor by id in the repository
+2023-07-27T16:09:24.894Z-error: Failed to delete doctor from service
+2023-07-27T16:09:24.894Z-error: Failed to delete doctor from service
+2023-07-27T16:16:52.055Z-error: Failed get doctor by id in the repository
+2023-07-27T16:16:52.056Z-error: Failed to delete doctor from service
+2023-07-27T16:16:52.057Z-error: Failed to delete doctor from service
+2023-07-27T16:23:34.221Z-error: Failed get doctor by id in the repository
+2023-07-27T16:23:34.222Z-error: Failed to delete doctor from service
+2023-07-27T16:23:34.224Z-error: Failed to delete doctor from service
+2023-07-27T16:23:58.537Z-error: Failed get doctor by id in the repository
+2023-07-27T16:23:58.539Z-error: Failed to delete doctor from service
+2023-07-27T16:23:58.539Z-error: Failed to delete doctor from service
+2023-07-27T16:24:58.622Z-error: Failed get doctor by id in the repository
+2023-07-27T16:24:58.624Z-error: Failed to delete doctor from service
+2023-07-27T16:24:58.625Z-error: Failed to delete doctor from service
+2023-07-27T16:34:20.376Z-error: Internal Server Error
+2023-07-27T16:34:20.416Z-error: Internal Server Error
+2023-07-27T16:34:20.429Z-error: Record has not found yet
+2023-07-27T16:34:20.432Z-error: Internal Server Error
+2023-07-27T16:34:20.540Z-error: Failed to get appointment from service
+2023-07-27T16:34:20.646Z-error: Failed to update appointment from service
+2023-07-27T16:34:22.048Z-error: Record has not found yet
+2023-07-27T16:34:22.108Z-error: Internal Server Error
+2023-07-27T16:34:22.124Z-error: Failed updating doctor in controller
+2023-07-27T16:34:22.138Z-error: Internal Server Error
+2023-07-27T16:34:22.188Z-error: Internal Server Error
+2023-07-27T16:34:22.617Z-error: Failed to update doctor from service
+2023-07-27T16:37:20.026Z-error: Failed to update doctor from service
+2023-07-27T16:48:39.565Z-error: Failed get doctor by id in the repository
+2023-07-27T16:49:27.871Z-error: Failed get doctor by id in the repository
+2023-07-27T16:50:52.813Z-error: Failed get doctor by id in the repository
+2023-07-27T16:50:52.814Z-error: Failed to delete doctor from service
+2023-07-27T16:50:52.815Z-error: Failed to delete doctor from service
+2023-07-27T16:51:52.147Z-error: Failed to update doctor from service
+2023-07-27T16:52:25.616Z-error: Failed to update doctor from service
+2023-07-27T16:54:27.574Z-error: Failed to update doctor from service
+2023-07-28T03:36:45.406Z-error: Failed to update doctor from service
+2023-07-28T04:35:03.982Z-error: Failed get doctor by id in the repository
+2023-07-28T04:35:03.983Z-error: Failed to delete doctor from service
+2023-07-28T04:35:03.985Z-error: Failed to delete doctor from service
+2023-07-28T04:37:10.266Z-error: Failed get doctor by id in the repository
+2023-07-28T04:37:10.267Z-error: Failed to delete doctor from service
+2023-07-28T04:37:10.268Z-error: Failed to delete doctor from service
+2023-07-28T04:37:59.568Z-error: Failed get doctor by id in the repository
+2023-07-28T04:37:59.570Z-error: Failed to delete doctor from service
+2023-07-28T04:37:59.571Z-error: Failed to delete doctor from service
+2023-07-28T04:39:54.110Z-error: Failed get doctor by id in the repository
+2023-07-28T04:39:54.110Z-error: Failed to delete doctor from service
+2023-07-28T04:39:54.111Z-error: Failed to delete doctor from service
+2023-07-28T04:40:36.709Z-error: Failed get doctor by id in the repository
+2023-07-28T04:40:36.711Z-error: Failed to delete doctor from service
+2023-07-28T04:40:36.711Z-error: Failed to delete doctor from service
+2023-07-28T04:40:59.846Z-error: Failed get doctor by id in the repository
+2023-07-28T04:40:59.847Z-error: Failed to delete doctor from service
+2023-07-28T04:40:59.849Z-error: Failed to delete doctor from service
+2023-07-28T04:43:15.957Z-error: Failed get doctor by id in the repository
+2023-07-28T04:43:15.958Z-error: Failed to delete doctor from service
+2023-07-28T04:43:15.958Z-error: Failed to delete doctor from service
+2023-07-28T04:44:22.233Z-error: Failed get doctor by id in the repository
+2023-07-28T04:44:22.234Z-error: Failed to delete doctor from service
+2023-07-28T04:44:22.235Z-error: Failed to delete doctor from service
+2023-07-28T04:45:44.098Z-error: Failed deleting doctor in repository
+2023-07-28T04:45:44.099Z-error: Failed to delete doctor from service
+2023-07-28T04:45:44.100Z-error: Failed to delete doctor from service
+2023-07-28T04:46:13.313Z-error: Failed deleting doctor in repository
+2023-07-28T04:46:13.315Z-error: Failed to delete doctor from service
+2023-07-28T04:46:13.315Z-error: Failed to delete doctor from service
+2023-07-28T04:46:50.687Z-error: Failed deleting doctor in repository
+2023-07-28T04:46:50.687Z-error: Failed to delete doctor from service
+2023-07-28T04:46:50.688Z-error: Failed to delete doctor from service
+2023-07-28T04:47:06.585Z-error: Failed deleting doctor in repository
+2023-07-28T04:47:06.585Z-error: Failed to delete doctor from service
+2023-07-28T04:47:06.586Z-error: Failed to delete doctor from service
+2023-07-28T04:47:07.710Z-error: Failed deleting doctor in repository
+2023-07-28T04:47:07.711Z-error: Failed to delete doctor from service
+2023-07-28T04:47:07.711Z-error: Failed to delete doctor from service
+2023-07-28T04:47:07.961Z-error: Failed deleting doctor in repository
+2023-07-28T04:47:07.962Z-error: Failed to delete doctor from service
+2023-07-28T04:47:07.963Z-error: Failed to delete doctor from service
+2023-07-28T04:47:08.159Z-error: Failed deleting doctor in repository
+2023-07-28T04:47:08.160Z-error: Failed to delete doctor from service
+2023-07-28T04:47:08.160Z-error: Failed to delete doctor from service
+2023-07-28T04:47:08.345Z-error: Failed deleting doctor in repository
+2023-07-28T04:47:08.346Z-error: Failed to delete doctor from service
+2023-07-28T04:47:08.347Z-error: Failed to delete doctor from service
+2023-07-28T04:47:08.540Z-error: Failed deleting doctor in repository
+2023-07-28T04:47:08.540Z-error: Failed to delete doctor from service
+2023-07-28T04:47:08.541Z-error: Failed to delete doctor from service
+2023-07-28T04:47:08.717Z-error: Failed deleting doctor in repository
+2023-07-28T04:47:08.718Z-error: Failed to delete doctor from service
+2023-07-28T04:47:08.719Z-error: Failed to delete doctor from service
+2023-07-28T04:48:24.713Z-error: Failed deleting doctor in repository
+2023-07-28T04:48:24.714Z-error: Failed to delete doctor from service
+2023-07-28T04:48:24.715Z-error: Failed to delete doctor from service
+2023-07-28T04:59:08.931Z-error: Failed deleting doctor in repository
+2023-07-28T04:59:08.951Z-error: Failed to delete doctor from service
+2023-07-28T04:59:08.952Z-error: Failed to delete doctor from service
+2023-07-28T04:59:20.890Z-error: Failed deleting doctor in repository
+2023-07-28T04:59:20.891Z-error: Failed to delete doctor from service
+2023-07-28T04:59:20.892Z-error: Failed to delete doctor from service
+2023-07-28T04:59:37.632Z-error: Failed deleting doctor in repository
+2023-07-28T04:59:37.633Z-error: Failed to delete doctor from service
+2023-07-28T04:59:37.634Z-error: Failed to delete doctor from service
+2023-07-28T05:00:20.047Z-error: Failed deleting doctor in repository
+2023-07-28T05:00:20.049Z-error: Failed to delete doctor from service
+2023-07-28T05:00:20.049Z-error: Failed to delete doctor from service
+2023-07-28T05:01:04.288Z-error: Failed deleting doctor in repository
+2023-07-28T05:01:04.290Z-error: Failed to delete doctor from service
+2023-07-28T05:01:04.292Z-error: Failed to delete doctor from service
+2023-07-28T05:02:29.349Z-error: Failed deleting doctor in repository
+2023-07-28T05:02:29.350Z-error: Failed to delete doctor from service
+2023-07-28T05:02:29.351Z-error: Failed to delete doctor from service
+2023-07-28T05:12:52.473Z-error: Record has not found yet
+2023-07-28T05:15:25.444Z-error: Record has not found yet
+2023-07-28T05:15:31.859Z-error: Failed to delete doctor from service
+2023-07-28T05:15:31.860Z-error: Failed to delete doctor from service
+2023-07-28T05:16:03.728Z-error: Failed to update doctor from service
+2023-07-28T05:18:31.870Z-error: Failed to update doctor from service
+2023-07-28T05:29:23.142Z-error: Failed to update doctor from service
+2023-07-28T16:39:34.638Z-error: Failed to update doctor from service
+2023-07-28T16:51:54.674Z-error: Failed to update doctor from service
+2023-07-28T16:54:20.003Z-error: Failed to update doctor from service
+2023-07-28T16:55:49.963Z-error: Failed to update doctor from service
+2023-07-29T03:51:46.113Z-error: Failed to update doctor from service
+2023-07-29T03:54:41.076Z-error: Failed to update doctor from service
+2023-07-29T03:56:47.475Z-error: Failed to update doctor from service
+2023-07-29T03:57:53.305Z-error: Failed to delete doctor from service
+2023-07-29T03:57:53.306Z-error: Failed to delete doctor from service
+2023-07-29T05:26:17.842Z-error: Failed to delete doctor from service
+2023-07-29T05:26:17.862Z-error: Failed to delete doctor from service
+2023-07-29T05:33:11.922Z-error: Failed to delete doctor from service
+2023-07-29T05:33:11.924Z-error: Failed to delete doctor from service
+2023-07-29T05:34:37.153Z-error: Failed get doctor by id in the repository
+2023-07-29T05:34:37.154Z-error: Failed to delete doctor from service
+2023-07-29T05:34:37.155Z-error: Failed to delete doctor from service
+2023-07-29T05:38:24.600Z-error: Failed to delete doctor from service
+2023-07-29T05:38:24.601Z-error: Failed to delete doctor from service
+2023-07-29T05:41:51.950Z-error: Failed to delete doctor from service
+2023-07-29T05:41:51.951Z-error: Failed to delete doctor from service
+2023-07-29T05:42:29.924Z-error: Record has not found yet
+2023-07-29T05:42:55.412Z-error: Record has not found yet
+2023-07-29T05:48:22.956Z-error: Failed to delete doctor from service
+2023-07-29T05:48:22.958Z-error: Failed to delete doctor from service
+2023-07-29T05:48:29.851Z-error: Failed to delete doctor from service
+2023-07-29T05:48:29.852Z-error: Failed to delete doctor from service
+2023-07-29T05:49:13.846Z-error: Failed to delete doctor from service
+2023-07-29T05:49:13.846Z-error: Failed to delete doctor from service
+2023-07-29T05:50:35.508Z-error: Failed to delete doctor from service
+2023-07-29T05:50:35.509Z-error: Failed to delete doctor from service
+2023-07-29T05:50:44.506Z-error: Failed to delete doctor from service
+2023-07-29T05:50:44.507Z-error: Failed to delete doctor from service

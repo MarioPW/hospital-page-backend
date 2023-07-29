@@ -62,7 +62,7 @@ export class PatientControllerImpl implements PatientController {
             if (patient) {
                 res.status(200).json(patient)
             } else {
-                throw new CustomError ('RecordNotFoundError', 'Record has not found yet', 'pacientes' ) 
+                throw new CustomError ('RecordNotFoundError', 'Record has not found yet', 'patients' ) 
             }
         } catch (error) {
             logger.error(error)
@@ -82,7 +82,7 @@ export class PatientControllerImpl implements PatientController {
             if (patient) {
                 res.status(200).json(patient)
             } else {
-                throw new CustomError ('UpdateError', 'Failed updating patient in controller', 'pacientes')
+                throw new CustomError ('UpdateError', 'Failed updating patient in controller', 'patients')
             }
         } catch (error) {
             logger.error(error)

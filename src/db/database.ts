@@ -2,15 +2,14 @@ import { knex } from 'knex'
 import dotenv  from 'dotenv'
 
 dotenv.config()
-
 export const db = knex({
     client: 'pg',
     connection: {
         host: 'localhost',
-        port: 5433,
-        database: 'gestion_citas',
+        port: 5432,
+        database: 'postgres',
         user: 'postgres',
-        password: 'changeme',
+        password: process.env.PWS
     },
 })
 

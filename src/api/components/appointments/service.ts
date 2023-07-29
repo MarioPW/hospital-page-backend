@@ -29,7 +29,7 @@ export class AppointmentServiceImpl implements AppointmentService {
             return patients
         } catch (error){
             logger.error(error)
-            throw new CustomError ( 'GetAllError', "Failed getting all appointments from service", "citas")
+            throw new CustomError ( 'GetAllError', "Failed getting all appointments from service", "appointments")
         }
     }
     
@@ -40,7 +40,7 @@ export class AppointmentServiceImpl implements AppointmentService {
             const appointment: Appointment = mapAppointment(appointmentDb, doctor)
             return appointment
         } catch (error){
-            throw new CustomError ( 'CreationError',"Failed to create appointment from service", 'citas')
+            throw new CustomError ( 'CreationError',"Failed to create appointment in service", 'appointments')
         }
     }
 
@@ -53,24 +53,22 @@ export class AppointmentServiceImpl implements AppointmentService {
             }
         catch (error) {
             logger.error('Failed to get appointment from service')
-            throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'citas')
+            throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'appointments')
         }
     }
-
-    // Tarea: Terminar el crud de citas y pacientes -- Upadte Appoinment, Delete Appoinment --
 
     public async updateAppointment(id: number, updates: Partial<AppointmentReq>): Promise<AppointmentReq> {
         try {
             const existAppointment =  await this.appointmentRepository.getAppointmentById(id)
             if (!existAppointment) {
-                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'citas' )
+                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'appointments' )
             }
             const updateAppointment = {...existAppointment, ...updates}
             this.appointmentRepository.updateAppointment(id, updateAppointment)
             return updateAppointment
         } catch (error) {
             logger.error( 'Failed to update appointment from service' )
-            throw new CustomError ( 'UpdateError', 'Failed to update appointment from service', 'citas' )
+            throw new CustomError ( 'UpdateError', 'Failed to update appointment from service', 'appointments' )
         }
     }
 
@@ -78,12 +76,12 @@ export class AppointmentServiceImpl implements AppointmentService {
         try {
             const existAppointment =  await this.appointmentRepository.getAppointmentById(id)
             if (!existAppointment) {
-                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'citas' )
+                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'appointments' )
             }
             await this.appointmentRepository.deleteAppointment(id)
         } catch (error) {
             logger.error('Failed to delete Appointment from service')
-            throw new CustomError ('DeleteError','Failed to delete Appointment from service', 'citas')
+            throw new CustomError ('DeleteError','Failed to delete Appointment from service', 'appointments')
         }
     }
 }

@@ -28,7 +28,7 @@ export class PatientServiceImpl implements PatientService {
         try{
             return this.patientRepository.createPatient(patientReq)
         } catch (error){
-            throw new CustomError ( 'CreationError', "Failed to create patient from service", 'pacientes')
+            throw new CustomError ( 'CreationError', "Failed to create patient from service", 'patients')
         }
     }
 
@@ -37,7 +37,7 @@ export class PatientServiceImpl implements PatientService {
             return this.patientRepository.getPatientById(id)
         } catch (error) {
             logger.error('Failed to get patient from service')
-            throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'pacientes')
+            throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'patients')
         }
     }
 
@@ -45,14 +45,14 @@ export class PatientServiceImpl implements PatientService {
         try {
             const existPatient =  await this.patientRepository.getPatientById(id)
             if (!existPatient) {
-                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'pacientes' )
+                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'patients' )
             }
             const updatePatient = {...existPatient, ...updates}
             this.patientRepository.updatePatient(id, updatePatient)
             return updatePatient
         } catch (error) {
             logger.error( 'Failed to update patient from service' )
-            throw new CustomError ( 'UpdateError', 'Failed to update patient from service', 'pacientes' )
+            throw new CustomError ( 'UpdateError', 'Failed to update patient from service', 'patients' )
         }
     }
 
@@ -60,12 +60,12 @@ export class PatientServiceImpl implements PatientService {
         try {
             const existPatient =  await this.patientRepository.getPatientById(id)
             if (!existPatient) {
-                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'pacientes' )
+                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'patients' )
             }
             await this.patientRepository.deletePatient(id)
         } catch (error) {
             logger.error('Failed to delete patient from service')
-            throw new CustomError ( 'DeleteError', 'Failed to delete patient from service', 'pacientes' )
+            throw new CustomError ( 'DeleteError', 'Failed to delete patient from service', 'patients' )
         }
     }
 

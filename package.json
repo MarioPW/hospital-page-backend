@@ -4,6 +4,7 @@
   "description": "modulo 6",
   "main": "src/app.ts",
   "scripts": {
+    "migrate": "npx knex migrate:latest --knexfile bd/knexfile.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

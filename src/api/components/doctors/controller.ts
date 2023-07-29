@@ -48,7 +48,7 @@ export class DoctorControllerImpl implements DoctorController {
                     if (error instanceof CustomError){
                         res.status(400).json({
                             error_name: error.name,
-                            message: "Failed Creating a doctor"
+                            message: "Failed Creating a doctor in controler"
                         })
                     } else {
                         res.status(400).json({
@@ -67,7 +67,7 @@ export class DoctorControllerImpl implements DoctorController {
             if (doctor) {
                 res.status(200).json(doctor)
             } else {
-                throw new CustomError ('RecordNotFoundError', 'Record has not found yet', 'doctores') 
+                throw new CustomError ('RecordNotFoundError', 'Record has not found yet', 'doctors') 
             }
         } catch (error) {
             logger.error(error)
@@ -87,7 +87,7 @@ export class DoctorControllerImpl implements DoctorController {
             if (doctor) {
                 res.status(200).json(doctor)
             } else {
-                throw new CustomError ('UpdateError', 'Failed updating doctor in controller', 'doctores')
+                throw new CustomError ('UpdateError', 'Failed updating doctor in controller', 'doctors')
             }
         } catch (error) {
             logger.error(error)
@@ -101,9 +101,9 @@ export class DoctorControllerImpl implements DoctorController {
 
     public async deleteDoctor (req: Request, res: Response): Promise<void> {
         try{
-            const id = parseInt(req.params.id_doctor )
+            const id = parseInt(req.params.id)
             await this.doctorService.deleteDoctor(id)       
-            res.status(200).json({message: `Doctor was deleted successfully`})
+            res.status(200).json({message: `Doctor ${id} was deleted successfully`})
         } catch (error) {
             logger.error(error)
             if (error instanceof CustomError){

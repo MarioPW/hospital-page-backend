@@ -8,10 +8,12 @@ const router = Router()
 const repository = new AppointmentRepository()
 const repositoryDoctor = new DoctorRepository()
 const service = new AppointmentServiceImpl(repository, repositoryDoctor)
-const controller: AppointmentController = new AppointmentControllerImpl(service)
+const appointmentController: AppointmentController = new AppointmentControllerImpl(service)
 
-router.get('',  controller.getAllAppointments.bind(controller))
-router.post('/create',  controller.createAppointment.bind(controller))
-router.get('/:id',  controller.getAppointmentById.bind(controller))
+router.get('',  appointmentController.getAllAppointments.bind(appointmentController))
+router.post('/create',  appointmentController.createAppointment.bind(appointmentController))
+router.get('/:id',  appointmentController.getAppointmentById.bind(appointmentController))
+router.put('/:id',  appointmentController.updateAppointment.bind(appointmentController))
+router.delete('/:id',  appointmentController.deleteAppointment.bind(appointmentController))
 
 export default router

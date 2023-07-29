@@ -1,6 +1,7 @@
 import { Doctor, DoctorReq } from "../api/components/doctors/model";
 import { DoctorServiceImpl } from "../api/components/doctors/service";
 import { DoctorRepository } from "../api/components/doctors/repository";
+import { ModuleBlock } from "typescript";
 
 describe("DoctorService", () => {
   let doctorSerivce: DoctorServiceImpl;
@@ -78,7 +79,7 @@ describe("DoctorService", () => {
       expect(doctorRepository.createDoctor).toHaveBeenCalledWith(doctorReq);
       expect(result).toEqual(doctorRes);
     });
-    it("should throw and error if doctor creation fails", async () => {
+    it("should throw an error if doctor creation fails", async () => {
       // Mock Process
       const error1 = new Error("Failed to create doctor");
       (doctorRepository.createDoctor as jest.Mock).mockRejectedValue(error1);
@@ -93,9 +94,11 @@ describe("DoctorService", () => {
   describe("getDoctorById", () => {
     it("should get doctor by id from service", async () => {
       // Mock Process
- 
+
       const doctorId = 1;
-      (doctorRepository.getDoctorById as jest.Mock).mockResolvedValue(doctorRes);
+      (doctorRepository.getDoctorById as jest.Mock).mockResolvedValue(
+        doctorRes
+      );
 
       // Method execution
       const result = await doctorSerivce.getDoctorById(doctorId);
@@ -133,7 +136,9 @@ describe("DoctorService", () => {
     it("Should update doctor and return updated doctor", async () => {
       // Mock Process
       const doctorUpdates = doctorReq;
-      (doctorRepository.getDoctorById as jest.Mock).mockResolvedValue(doctorRes);
+      (doctorRepository.getDoctorById as jest.Mock).mockResolvedValue(
+        doctorRes
+      );
       // Method execution
       const result: Doctor = await doctorSerivce.updateDoctor(1, doctorUpdates);
       // Asserts
@@ -142,17 +147,39 @@ describe("DoctorService", () => {
       expect(result).toEqual(doctorRes);
     });
 
-     it("should throw an error if retrieval fails", async () => {
-         // Mock Process
-         const error = new Error("Failed to update doctor from service");
-         (doctorRepository.updateDoctor as jest.Mock).mockResolvedValue(null);
-  
-        // Asserts
-        await expect(doctorSerivce.updateDoctor(1, doctorRes )).rejects.toThrowError(
-           error
-        );
-        expect(doctorRepository.getDoctorById).toHaveBeenCalledWith(1);
-            
-      });
+    it("should throw an error if retrieval fails", async () => {
+      // Mock Process
+      const error = new Error("Failed to update doctor from service");
+      (doctorRepository.updateDoctor as jest.Mock).mockResolvedValue(null);
+
+      // Asserts
+      await expect(
+        doctorSerivce.updateDoctor(1, doctorRes)
+      ).rejects.toThrowError(error);
+      expect(doctorRepository.getDoctorById).toHaveBeenCalledWith(1);
+    });
+  });
+  describe("deleteDoctor", () => {
+    it("Should delete a doctor if (id: number) is provided", async () => {
+      // Mocks
+      (doctorRepository.getDoctorById as jest.Mock).mockResolvedValue(
+        doctorRes
+      );
+      // Method execution
+      const result = await doctorSerivce.deleteDoctor(1);
+      // Asserts
+      expect(doctorRepository.getDoctorById).toHaveBeenCalledWith(1);
+    });
+
+    it("should throw a RecordNotFoundError if doctor register does not exist", async () => {
+    // Mocks
+    const error = new Error("Failed to delete doctor from service");
+    (doctorRepository.getDoctorById as jest.Mock).mockResolvedValue(
+      'Record has not been found yet'
+    );
+    // Asserts
+    expect(doctorRepository.getDoctorById).toHaveBeenCalledWith(1);
+    await expect( doctorSerivce.deleteDoctor(1)).rejects.toThrowError(error);
+    });
   });
 });

@@ -29,7 +29,7 @@ export class DoctorServiceImpl implements DoctorService {
         try{
             return this.doctorRepository.createDoctor(doctorReq)
         } catch (error){
-            throw new CustomError ('CreationError', "Failed to create doctor in service", "doctores")
+            throw new CustomError ('CreationError', "Failed to create doctor in service", "doctors")
         }
     }
 
@@ -38,7 +38,7 @@ export class DoctorServiceImpl implements DoctorService {
             return this.doctorRepository.getDoctorById(id)
         } catch (error) {
             logger.error('Failed to get doctor from service')
-            throw new CustomError ('RecordNotFoundError', 'Record has not found yet', 'doctores')
+            throw new CustomError ('RecordNotFoundError', 'Record has not found yet', 'doctors')
         }
     }
 
@@ -46,27 +46,29 @@ export class DoctorServiceImpl implements DoctorService {
         try {
             const existDoctor =  await this.doctorRepository.getDoctorById(id)
             if (!existDoctor) {
-                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'doctores' )
+                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'doctors' )
             } else {
             const updateDoctor = {...existDoctor, ...updates}
             this.doctorRepository.updateDoctor(id, updateDoctor)
             return updateDoctor }
         } catch (error) {
             logger.error( 'Failed to update doctor from service' )
-            throw new CustomError ( 'UpdateError', 'Failed to update doctor from service', 'doctores' )
+            throw new CustomError ( 'UpdateError', 'Failed to update doctor from service', 'doctors' )
         }
     }
 
     public async deleteDoctor(id: number): Promise<void> {
         try {
             const existDoctor =  await this.doctorRepository.getDoctorById(id)
+            
             if (!existDoctor) {
-                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'doctores' )
+                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'doctors' )
             }
             await this.doctorRepository.deleteDoctor(id)
-        } catch (error) {
+            
+        } catch (error) {          
             logger.error('Failed to delete doctor from service')
-            throw new CustomError ( 'DeleteError', 'Failed to delete doctor from service', 'doctores' )
+            throw new CustomError ( 'DeleteError', 'Failed to delete doctor from service', 'doctors' )
         }
     }
 }
