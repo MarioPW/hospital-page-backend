@@ -63,9 +63,9 @@ export class AppointmentServiceImpl implements AppointmentService {
             if (!existAppointment) {
                 throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'appointments' )
             }
-            const updateAppointment = {...existAppointment, ...updates}
-            this.appointmentRepository.updateAppointment(id, updateAppointment)
-            return updateAppointment
+            const updatedAppointment = {...existAppointment, ...updates}
+            this.appointmentRepository.updateAppointment(id, updatedAppointment)
+            return updatedAppointment
         } catch (error) {
             logger.error( 'Failed to update appointment from service' )
             throw new CustomError ( 'UpdateError', 'Failed to update appointment from service', 'appointments' )
@@ -75,10 +75,7 @@ export class AppointmentServiceImpl implements AppointmentService {
     public async deleteAppointment(id: number): Promise<void> {
         try {
             const existAppointment =  await this.appointmentRepository.getAppointmentById(id)
-            if (!existAppointment) {
-                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'appointments' )
-            }
-            await this.appointmentRepository.deleteAppointment(id)
+            await this.appointmentRepository.deleteAppointment(existAppointment.id_cita)
         } catch (error) {
             logger.error('Failed to delete Appointment from service')
             throw new CustomError ('DeleteError','Failed to delete Appointment from service', 'appointments')

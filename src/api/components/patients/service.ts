@@ -8,7 +8,7 @@ export interface PatientService {
     getAllPatients(): Promise<Patient[]>
     createPatient(patientReq: PatientReq): Promise<Patient>
     getPatientById(id: number): Promise<Patient>
-    updatePatient(id: number, updates:Partial<Patient>): Promise<Patient>
+    updatePatient(id: number, updates:Partial<PatientReq>): Promise<Patient>
     deletePatient(id: number): Promise<void>
 }
 

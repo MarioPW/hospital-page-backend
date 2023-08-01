@@ -16,6 +16,21 @@ const mockRes = {} as Response;
 describe("AppointmentController", () => {
   let appointmentService: AppointmentService;
   let appointmentController: AppointmentController;
+  const appointmentReq: AppointmentReq = {
+    identificacion_paciente: "string",
+    especialidad: "new string",
+    id_doctor: 1,
+    horario: "new string",
+  };
+  const appointmentRes: AppointmentResDB = {
+    id_cita: 1,
+    horario: "new string",
+    especialidad: "new string",
+    id_doctor: 1,
+    identificacion_paciente: "string",
+    created_at: "string",
+    updated_at: "string",
+  };
 
   beforeEach(() => {
     appointmentService = {
@@ -82,21 +97,6 @@ describe("AppointmentController", () => {
 
   describe("createAppointment", () => {
     it("Should create a new appointment and return info", async () => {
-      const appointmentReq: AppointmentReq = {
-        identificacion_paciente: "string",
-        especialidad: "string",
-        id_doctor: 1,
-        horario: "string",
-      };
-      const appointmentRes: AppointmentResDB = {
-        id_cita: 1,
-        horario: "string",
-        especialidad: "string",
-        id_doctor: 1,
-        identificacion_paciente: "string",
-        created_at: "string",
-        updated_at: "string",
-      };
       (mockReq.body as AppointmentReq) = appointmentReq;
       (appointmentService.createAppointment as jest.Mock).mockResolvedValue(
         appointmentRes
@@ -127,15 +127,6 @@ describe("AppointmentController", () => {
   describe("getAppointmentById", () => {
     it("should get appointment by id", async () => {
       // Mock Process
-      const appointmentRes: AppointmentResDB = {
-        id_cita: 1,
-        horario: "string",
-        especialidad: "string",
-        id_doctor: 1,
-        identificacion_paciente: "string",
-        created_at: "string",
-        updated_at: "string",
-      };
       mockReq.params = { id: "1" };
       (appointmentService.getAppointmentById as jest.Mock).mockResolvedValue(
         appointmentRes
@@ -185,21 +176,6 @@ describe("AppointmentController", () => {
   describe("updateAppointment", () => {
     it("should update an appointment and return info", async () => {
       // Mock Process
-      const appointmentReq: AppointmentReq = {
-        identificacion_paciente: "string",
-        especialidad: "new string",
-        id_doctor: 1,
-        horario: "new string",
-      };
-      const appointmentRes: AppointmentResDB = {
-        id_cita: 1,
-        horario: "new string",
-        especialidad: "new string",
-        id_doctor: 1,
-        identificacion_paciente: "string",
-        created_at: "string",
-        updated_at: "string",
-      };
       (mockReq.body as AppointmentReq) = appointmentReq;
       (appointmentService.updateAppointment as jest.Mock).mockResolvedValue(appointmentRes);
 
@@ -210,6 +186,45 @@ describe("AppointmentController", () => {
       expect(appointmentService.updateAppointment).toHaveBeenCalledWith(1, appointmentReq);
       expect(mockRes.json).toHaveBeenCalledWith(appointmentRes);
       expect(mockRes.status).toHaveBeenCalledWith(200);
+    });
+    it("should be handler error and return 400 status", async () => {
+      // Mocks
+      const error = {"error": "Failed updating appointment in controller"};
+      (appointmentService.updateAppointment as jest.Mock).mockResolvedValue(undefined);
+      // Method execution
+      await appointmentController.updateAppointment(mockReq, mockRes);
+      // Asserts
+      expect(mockRes.status).toHaveBeenCalledWith(400);
+      expect(mockRes.json).toHaveBeenCalledWith(error);
+    });
+  });
+  describe("deleteAppoinment", () => {
+    it("Should delete appiontment and return success message", async () => {
+      // Mocks 
+      const successsMesasge = {message: `Appointment was deleted successfully`};
+      mockReq.params = { id: "1" };
+      // Execution
+      await appointmentController.deleteAppointment(mockReq, mockRes);
+      // Asserts
+      expect(appointmentService.deleteAppointment).toHaveBeenCalledWith(1)
+      expect(mockRes.status).toHaveBeenCalledWith(200);
+      expect(mockRes.json).toHaveBeenCalledWith(successsMesasge);
+    });
+    it("should handle error and return 400 status", async () => {
+      // Mocks 
+      const errorMessage = "Failed to delete Appointment";
+      const mockId = "1";
+      mockReq.params = { id: mockId };
+
+      appointmentService.deleteAppointment = jest.fn().mockRejectedValue(new Error(errorMessage));
+  
+      // Execution
+      await appointmentController.deleteAppointment(mockReq, mockRes);
+  
+      // Asserts
+      expect(appointmentService.deleteAppointment).toHaveBeenCalledWith(parseInt(mockId));
+      expect(mockRes.status).toHaveBeenCalledWith(400);
+      expect(mockRes.json).toHaveBeenCalledWith({ error: errorMessage });
     });
   });
 });

@@ -3,6 +3,7 @@ import { Request, Response } from 'express'
 import { PatientService } from './service'
 import logger from '../../../utils/logger'
 import { CustomError } from '../../../utils/customErrors'
+import { createPatientSchema } from "./validations/patient.validation"
 
 
 export interface PatientController {
@@ -29,27 +30,32 @@ export class PatientControllerImpl implements PatientController {
         }
     }
     public  createPatient (req: Request, res: Response): void {
-        const patientReq = req.body
-        this.patientService.createPatient(patientReq)
-        .then(
-            (patient) =>{
-                res.status(201).json(patient)
-            },
-            (error) =>{
-                logger.error(error)
-                if (error instanceof CustomError){
-                    res.status(400).json({
-                        error_name: error.name,
-                        message: "Failed Creating a patient"
-                    })
-                } else {
-                    res.status(400).json({
-                        message: "Internal Server Error"
-                    })
-                }
-            }
-        )
 
+        const { error, value } = createPatientSchema.validate(req.body)
+        if (error){
+            res.status(400).json({message: error.details[0].message})
+        } else {
+            this.patientService.createPatient(value)
+            .then(
+                (patient) => {
+                    res.status(201).json(patient)
+                    
+                },
+                (error) => {
+                    logger.error(error)
+                    if (error instanceof CustomError){
+                        res.status(400).json({
+                            error_name: error.name,
+                            message: "Failed Creating a patient in controler"
+                        })
+                    } else {
+                        res.status(400).json({
+                            message: "Internal Server Error"
+                        })
+                    }
+                }
+            )
+        }
     }
 
     public async getPatientById (req: Request, res: Response): Promise<void> {
@@ -77,8 +83,8 @@ export class PatientControllerImpl implements PatientController {
     public async updatePatient (req: Request, res: Response): Promise<void> {
         try{
             const id = parseInt(req.params.id)
-            const patientReq = req.body
-            const patient =  await this.patientService.updatePatient(id, patientReq)
+            const updatesReq = req.body
+            const patient =  await this.patientService.updatePatient(id, updatesReq)
             if (patient) {
                 res.status(200).json(patient)
             } else {

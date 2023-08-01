@@ -21,11 +21,11 @@ export class AppointmentControllerImpl implements AppointmentController {
     constructor ( appointmentService: AppointmentService ){
         this.appointmentService = appointmentService
     }
-    public async getAllAppointments(req: Request, res: Response): Promise<void> {
+    public async getAllAppointments(_req: Request, res: Response): Promise<void> {
         try {
-            const patients = await this.appointmentService.getAllAppointments()
+            const appointments = await this.appointmentService.getAllAppointments()
             
-            res.status(200).json(patients)
+            res.status(200).json(appointments)
             
         } catch (error) {
             logger.error(error)
@@ -102,8 +102,7 @@ export class AppointmentControllerImpl implements AppointmentController {
     public async deleteAppointment(req: Request, res: Response): Promise<void> {
         try{
             const id = parseInt(req.params.id)
-            await this.appointmentService.deleteAppointment(id)
-            
+            await this.appointmentService.deleteAppointment(id)          
             res.status(200).json({message: `Appointment was deleted successfully`})
         } catch (error) {
             logger.error(error)

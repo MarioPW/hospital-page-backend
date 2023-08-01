@@ -35,15 +35,7 @@ describe("DoctorService", () => {
   describe("getAllDoctors", () => {
     it("should get all doctors from service", async () => {
       // Mock Process
-      const doctors: Doctor[] = [
-        {
-          id_doctor: 1,
-          nombre: "Carlos",
-          apellido: "Caceres",
-          especialidad: "Medicina General",
-          consultorio: 100,
-        },
-      ];
+      const doctors: Doctor[] = [ doctorRes ];
 
       (doctorRepository.getAllDoctors as jest.Mock).mockResolvedValue(doctors);
 
@@ -171,15 +163,16 @@ describe("DoctorService", () => {
       expect(doctorRepository.getDoctorById).toHaveBeenCalledWith(1);
     });
 
-    it("should throw a RecordNotFoundError if doctor register does not exist", async () => {
+  it("should throw an Error if doctor register does not exist", async () => {
     // Mocks
-    const error = new Error("Failed to delete doctor from service");
-    (doctorRepository.getDoctorById as jest.Mock).mockResolvedValue(
-      'Record has not been found yet'
-    );
+    const error = new Error('Failed to delete doctor from service');
+    (doctorRepository.getDoctorById as jest.Mock).mockResolvedValue(undefined); // Result can be null too;
+              
+    // Method execution
+    await expect(() => doctorSerivce.deleteDoctor(1)).rejects.toThrowError(error);
+  
     // Asserts
     expect(doctorRepository.getDoctorById).toHaveBeenCalledWith(1);
-    await expect( doctorSerivce.deleteDoctor(1)).rejects.toThrowError(error);
-    });
+   });
   });
 });

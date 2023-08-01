@@ -12,6 +12,19 @@ const mockRes = {} as Response;
 describe("DoctorController", () => {
   let doctorService: DoctorService;
   let doctorController: DoctorController;
+  const doctorRes: Doctor = {
+    id_doctor: 1,
+    nombre: "Carlos",
+    apellido: "Caceres",
+    especialidad: "Medicina General",
+    consultorio: 100,
+  };
+  const doctorReq: DoctorReq = {
+    nombre: "Carlos",
+    apellido: "Caceres",
+    especialidad: "Medicina General",
+    consultorio: 100,
+  };
 
   beforeEach(() => {
     doctorService = {
@@ -30,22 +43,7 @@ describe("DoctorController", () => {
   describe("getAllDoctors", () => {
     it("should get all doctors", async () => {
       // Mock Process
-      const doctors: Doctor[] = [
-        {
-          id_doctor: 1,
-          nombre: "Carlos",
-          apellido: "Caceres",
-          especialidad: "Medicina General",
-          consultorio: 100,
-        },
-        {
-          id_doctor: 2,
-          nombre: "Alveiro",
-          apellido: "Tarsisio",
-          especialidad: "Ortopedia",
-          consultorio: 101,
-        },
-      ];
+      const doctors: Doctor[] = [ doctorRes ];
 
       (doctorService.getAllDoctors as jest.Mock).mockResolvedValue(doctors);
 
@@ -76,19 +74,6 @@ describe("DoctorController", () => {
     it("should create a new doctor and return info", async () => {
       // Mock Process
 
-      const doctorRes: Doctor = {
-        id_doctor: 1,
-        nombre: "Carlos",
-        apellido: "Caceres",
-        especialidad: "Medicina General",
-        consultorio: 100,
-      };
-      const doctorReq: DoctorReq = {
-        nombre: "Carlos",
-        apellido: "Caceres",
-        especialidad: "Medicina General",
-        consultorio: 100,
-      };
       (mockReq.body as DoctorReq) = doctorReq;
       (doctorService.createDoctor as jest.Mock).mockResolvedValue(doctorRes);
       // Method execution
@@ -107,7 +92,6 @@ describe("DoctorController", () => {
 
       await doctorController.createDoctor(mockReq, mockRes);
 
-      // expect(doctorService.createDoctor).toHaveBeenCalledWith({});
       expect(mockRes.json).toHaveBeenCalledWith({ message: '"nombre" is required' });
       expect(mockRes.status).toHaveBeenCalledWith(400);
     });
@@ -116,13 +100,6 @@ describe("DoctorController", () => {
   describe("getDoctorById", () => {
     it("should get doctor by id", async () => {
       // Mock Process
-      const doctorRes: Doctor = {
-        id_doctor: 1,
-        nombre: "Carlos",
-        apellido: "Caceres",
-        especialidad: "Medicina General",
-        consultorio: 100,
-      };
       mockReq.params = { id: "1" };
       (doctorService.getDoctorById as jest.Mock).mockResolvedValue(doctorRes);
 
@@ -166,19 +143,7 @@ describe("DoctorController", () => {
   describe("updateDoctor", () => {
     it("should update a doctor and return info", async () => {
       // Mock Process
-      const doctorRes: Doctor = {
-        id_doctor: 1,
-        nombre: "Carlos",
-        apellido: "Caceres",
-        especialidad: "Radiología",
-        consultorio: 101,
-      };
-      const doctorReq: DoctorReq = {
-        nombre: "Carlos",
-        apellido: "Caceres",
-        especialidad: "Radiología",
-        consultorio: 101,
-      };
+
       (mockReq.body as DoctorReq) = doctorReq;
       (doctorService.updateDoctor as jest.Mock).mockResolvedValue(doctorRes);
 
@@ -191,12 +156,7 @@ describe("DoctorController", () => {
       expect(mockRes.status).toHaveBeenCalledWith(200);
     });
     it("should return 400 if doctor not found", async () => {
-      const doctorReq: DoctorReq = {
-        nombre: "Carlos",
-        apellido: "Caceres",
-        especialidad: "Radiología",
-        consultorio: 101,
-      };
+
       mockReq.params = { id: "1" };
       (doctorService.updateDoctor as jest.Mock).mockResolvedValue(null);
 
@@ -210,12 +170,7 @@ describe("DoctorController", () => {
     });
 
     it("should return 400 if an error occurs", async () => {
-      const doctorReq: DoctorReq = {
-        nombre: "Carlos",
-        apellido: "Caceres",
-        especialidad: "Radiología",
-        consultorio: 101,
-      };
+
       const error = new Error("Internal Server Error");
       mockReq.params = { id: "1" };
       (doctorService.updateDoctor as jest.Mock).mockRejectedValue(error);
@@ -232,7 +187,7 @@ describe("DoctorController", () => {
   describe("deleteDoctor", () => {
     it("should delete a doctor and return success message", async () => {
       // Mock Process
-      mockReq.params = { id_doctor: "1" };
+      mockReq.params = { id: "1" };
       (doctorService.deleteDoctor as jest.Mock).mockResolvedValue(mockRes);
 
       // Method execution
@@ -241,14 +196,14 @@ describe("DoctorController", () => {
       // Asserts
       expect(doctorService.deleteDoctor).toHaveBeenCalledWith(1);
       expect(mockRes.json).toHaveBeenCalledWith({
-        message: "Doctor was deleted successfully",
+        message: "Doctor 1 was deleted successfully",
       });
       expect(mockRes.status).toHaveBeenCalledWith(200);
     });
 
     it("should return 400 if doctor not found", async () => {
       const error = new Error("Internal Server Error");
-      mockReq.params = { id_doctor: "1" };
+      mockReq.params = { id: "1" };
       (doctorService.deleteDoctor as jest.Mock).mockRejectedValue(error);
 
       await doctorController.deleteDoctor(mockReq, mockRes);

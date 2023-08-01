@@ -9,7 +9,7 @@ export interface DoctorService {
     getAllDoctors(): Promise<Doctor[]>
     createDoctor(doctorReq: DoctorReq): Promise<Doctor>
     getDoctorById(id: number): Promise<Doctor>
-    updateDoctor(id: number, updates:Partial<Doctor>): Promise<Doctor>
+    updateDoctor(id: number, updates:Partial<DoctorReq>): Promise<Doctor>
     deleteDoctor(id: number): Promise<void>
 }
 
@@ -59,16 +59,11 @@ export class DoctorServiceImpl implements DoctorService {
 
     public async deleteDoctor(id: number): Promise<void> {
         try {
-            const existDoctor =  await this.doctorRepository.getDoctorById(id)
-            
-            if (!existDoctor) {
-                throw new CustomError ( 'RecordNotFoundError', 'Record has not found yet', 'doctors' )
-            }
-            await this.doctorRepository.deleteDoctor(id)
-            
+            const existDoctor =  await this.doctorRepository.getDoctorById(id)          
+            await this.doctorRepository.deleteDoctor(existDoctor.id_doctor)           
         } catch (error) {          
             logger.error('Failed to delete doctor from service')
-            throw new CustomError ( 'DeleteError', 'Failed to delete doctor from service', 'doctors' )
+            throw new CustomError ( 'DeleteError', 'Failed to delete doctor from service', 'doctors' )          
         }
     }
 }
