@@ -24,7 +24,7 @@ export class AppointmentRepository {
 
     public async getAppointmentById(id: number): Promise<AppointmentResDB> {
         try{
-            const appointment = await db('appointments ').where({ id_cita: id }).first()
+            const appointment = await db('appointments ').where({ appointment_id: id }).first()
             return appointment
         } catch (error){
             logger.error( 'Failed get appointment by id in repository', {error})
@@ -34,7 +34,7 @@ export class AppointmentRepository {
     
     public async updateAppointment(id: number, updates: Partial<AppointmentReq>): Promise<void> {
         try{
-            await db('appointments ').where({ id_cita: id }).update(updates)
+            await db('appointments ').where({ appointment_id: id }).update(updates)
         } catch (error){
             logger.error( 'Failed updated appointment in repository', {error})
             throw new CustomError ('UpdateError', 'Failed updated appointment in repository', 'appointments')
@@ -43,7 +43,7 @@ export class AppointmentRepository {
 
     public async deleteAppointment(id: number): Promise<void> {
         try{
-            await db('appointments ').where({ id_cita: id }).del()
+            await db('appointments ').where({ appointment_id: id }).del()
         } catch (error){
             logger.error( 'Failed deleting Appointment in repository', {error})
             throw new CustomError ( 'DeleteError','Failed deleting Appointment in repository', 'appointments')

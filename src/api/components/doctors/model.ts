@@ -1,17 +1,19 @@
+
 export interface Doctor {
-    id_doctor: number
-    nombre: string
-    apellido: string
-    especialidad: string
-    consultorio: number
-    correo?: string
-    createdAt?: Date
+    doctor_id: number
+    first_name: string
+    last_name: string
+    specialty: string
+    office: string
+    email?: string
+    created_at?: string
+    updated_at?: string
 }
 
 export interface DoctorReq {
-    nombre: string
-    apellido: string
-    especialidad: string
-    consultorio: number
-    correo?: string
+    first_name: string
+    last_name: string
+    specialty: string
+    office: string
+    email?: string
 }

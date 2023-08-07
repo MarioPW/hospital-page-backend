@@ -7,17 +7,19 @@ describe("DoctorService", () => {
   let doctorSerivce: DoctorServiceImpl;
   let doctorRepository: DoctorRepository;
   const doctorRes: Doctor = {
-    id_doctor: 1,
-    nombre: "Carlos",
-    apellido: "Caceres",
-    especialidad: "Medicina General",
-    consultorio: 100,
+    doctor_id: 1,
+    first_name: "Carlos",
+    last_name: "Caceres",
+    specialty: "Radiología",
+    office: "101C",
+    email: "carlos_caceres@gmail.com"
   };
-  const doctorReq: DoctorReq = {
-    nombre: "Carlos",
-    apellido: "Caceres",
-    especialidad: "Medicina General",
-    consultorio: 100,
+  const doctorReq: DoctorReq = {   
+    first_name: "Carlos",
+    last_name: "Caceres",
+    specialty: "Radiología",
+    office: "101C",
+    email: "carlos_caceres@gmail.com"
   };
 
   beforeEach(() => {
@@ -161,6 +163,7 @@ describe("DoctorService", () => {
       const result = await doctorSerivce.deleteDoctor(1);
       // Asserts
       expect(doctorRepository.getDoctorById).toHaveBeenCalledWith(1);
+      expect(result).toHaveBeenCalled;
     });
 
   it("should throw an Error if doctor register does not exist", async () => {

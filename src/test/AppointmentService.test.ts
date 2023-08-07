@@ -17,43 +17,46 @@ describe("AppointmentService", () => {
   let doctorRepository: DoctorRepository;
 
   const appointmentRes: Appointment = {
-    identificacion_paciente: "123",
-    especialidad: "Medicina General",
+    patient_identification: "2222",
+    specialty: "Medicina General",
     doctor: "Mario Triana",
-    consultorio: 123,
-    horario: "10:00 a.m.",
+    office: "string",
+    schedule: "string"
   };
 
   const appointmentReq: AppointmentReq = {
-    identificacion_paciente: "string",
-    especialidad: "string",
-    id_doctor: 2,
-    horario: "string",
+    patient_identification: "2222",
+    specialty: "Medicina General",
+    doctor_id: 1,
+    schedule: "string"
   };
 
   const appointmentResDb: AppointmentResDB = {
-    id_cita: 1,
-    horario: "string",
-    especialidad: "string",
-    id_doctor: 2,
-    identificacion_paciente: "string",
+    appointment_id: 1,
+    schedule: "string",
+    specialty: "Medicina General",
+    doctor_id: 2,
+    patient_identification: "2222",
     created_at: "string",
-    updated_at: "string",
+    updated_at: "string"
   };
 
   const doctor: Doctor = {
-    id_doctor: 1,
-    nombre: "string",
-    apellido: "string",
-    especialidad: "string",
-    consultorio: 100,
+    doctor_id: 2,
+    first_name: "Mario",
+    last_name: "Triana",
+    specialty: "Medicina General",
+    office: "string",
+    email: "string",
+    created_at: "string",
+    updated_at: "string"
   };
   const appointmentMaped: Appointment = {
-    consultorio: 100,
-    doctor: "string string",
-    especialidad: "string",
-    horario: "string",
-    identificacion_paciente: "string",
+    patient_identification: "2222",
+    specialty: "Medicina General",
+    doctor: "Mario Triana",
+    office: "string",
+    schedule: "string"
   };
 
   beforeEach(() => {
@@ -153,14 +156,12 @@ describe("AppointmentService", () => {
       (appointmentRepository.getAppointmentById as jest.Mock).mockResolvedValue(
         appointmentResDb
       );
-      (doctorRepository.getDoctorById as jest.Mock).mockResolvedValue(doctor);
 
       // Method execution
       const result = await appointmentService.getAppointmentById(appointmentId);
 
       // Asserts
-      expect(doctorRepository.getDoctorById).toHaveBeenCalledWith(2);
-      expect(result).toEqual(appointmentMaped);
+      expect(result).toEqual(appointmentResDb);
     });
 
     it("should throw an error if retrieval fails", async () => {
@@ -223,14 +224,14 @@ describe("AppointmentService", () => {
         ).mockResolvedValue(appointmentResDb);
 
         // Method Execution
-        await appointmentService.deleteAppointment(appointmentResDb.id_cita);
+        await appointmentService.deleteAppointment(appointmentResDb.appointment_id);
 
         // Asserts
         expect(appointmentRepository.getAppointmentById).toHaveBeenCalledWith(
-          appointmentResDb.id_cita
+          appointmentResDb.appointment_id
         );
         expect(appointmentRepository.deleteAppointment).toHaveBeenCalledWith(
-          appointmentResDb.id_cita
+          appointmentResDb.appointment_id
         );
       });
       it("Should throw an error if appointmentRepository.getAppointmentById() returns undefined register", async () => {

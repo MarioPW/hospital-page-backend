@@ -17,19 +17,19 @@ describe("AppointmentController", () => {
   let appointmentService: AppointmentService;
   let appointmentController: AppointmentController;
   const appointmentReq: AppointmentReq = {
-    identificacion_paciente: "string",
-    especialidad: "new string",
-    id_doctor: 1,
-    horario: "new string",
+    patient_identification: "string",
+    specialty: "string",
+    doctor_id: 1,
+    schedule: "string"
   };
   const appointmentRes: AppointmentResDB = {
-    id_cita: 1,
-    horario: "new string",
-    especialidad: "new string",
-    id_doctor: 1,
-    identificacion_paciente: "string",
+    appointment_id: 1,
+    schedule: "string",
+    specialty: "string",
+    doctor_id: 1,
+    patient_identification: "string",
     created_at: "string",
-    updated_at: "string",
+    updated_at: "string"
   };
 
   beforeEach(() => {
@@ -51,19 +51,12 @@ describe("AppointmentController", () => {
       // Mock Process
       const appointments: Appointment[] = [
         {
-          identificacion_paciente: "123456",
-          especialidad: "Especialidad",
+          patient_identification: "string",
+          specialty: "string",
           doctor: "string",
-          consultorio: 1,
-          horario: "string",
-        },
-        {
-          identificacion_paciente: "123456",
-          especialidad: "Especialidad",
-          doctor: "string",
-          consultorio: 2,
-          horario: "string",
-        },
+          office: "string",
+          schedule: "string"
+        }
       ];
 
       (appointmentService.getAllAppointments as jest.Mock).mockResolvedValue(

@@ -1,24 +1,25 @@
-export interface Appointment {
-    identificacion_paciente: string
-    especialidad: string
-    doctor: string
-    consultorio: number
-    horario: string
-}
 
+
+export interface Appointment {
+    patient_identification: string
+    specialty: string
+    doctor: string
+    office: string
+    schedule: string
+}
 export interface AppointmentReq {
-    identificacion_paciente: string
-    especialidad: string
-    id_doctor: number
-    horario: string
+    patient_identification: string
+    specialty: string
+    doctor_id: number
+    schedule: string
 }
 
 export interface AppointmentResDB {
-    id_cita: number
-    horario: string
-    especialidad: string
-    id_doctor: number
-    identificacion_paciente: string
+    appointment_id: number
+    schedule: string
+    specialty: string
+    doctor_id: number
+    patient_identification: string
     created_at: string
     updated_at: string
 }

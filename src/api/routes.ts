@@ -6,8 +6,8 @@ import pacienteRoutes from './components/patients/routes'
 
 const router = Router()
 
-router.use('/doctores', doctorRoutes)
-router.use('/citas', citaRoutes)
-router.use('/pacientes', pacienteRoutes)
+router.use('/doctors', doctorRoutes)
+router.use('/appointments', citaRoutes)
+router.use('/patients', pacienteRoutes)
 
 export default router

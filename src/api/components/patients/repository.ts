@@ -6,7 +6,7 @@ import { CustomError } from "../../../utils/customErrors"
 export class PatientRepository {
     public async createPatient(patient: PatientReq): Promise<Patient> {
         try {
-            const [createdPatient] =  await db('pacientes').insert(patient).returning('*') 
+            const [createdPatient] =  await db('patients').insert(patient).returning('*') 
             return createdPatient
         } catch (error) {
             throw new CustomError ( 'CreationError', 'Failed to create patient in repository', 'patients')
@@ -15,7 +15,7 @@ export class PatientRepository {
 
     public async getAllPatients(): Promise<Patient[]> {
         try {
-            return  db.select('*').from('pacientes')
+            return  db.select('*').from('patients')
         } catch (error) {
             throw new CustomError ( 'GetAllError', 'Failed get all patients in repository', 'patients')
         }
@@ -23,7 +23,7 @@ export class PatientRepository {
 
     public async getPatientById(id: number): Promise<Patient> {
         try{
-            const patient = await db('pacientes').where({ id_paciente: id }).first()
+            const patient = await db('patients').where({ id_paciente: id }).first()
             return patient
         } catch (error){
             logger.error( 'Failed get patient by id in repository', {error})
@@ -33,7 +33,7 @@ export class PatientRepository {
 
     public async updatePatient(id: number, updates: Partial<PatientReq>): Promise<void> {
         try{
-            await db('pacientes').where({ id_paciente: id }).update(updates)
+            await db('patients').where({ id_paciente: id }).update(updates)
         } catch (error){
             logger.error( 'Failed updated patient in repository', {error})
             throw new CustomError ('UpdateError', 'Failed updated patient in repository', 'patients')
@@ -42,7 +42,7 @@ export class PatientRepository {
  
     public async deletePatient(id: number): Promise<void> {
         try{
-            await db('pacientes').where({ id_paciente: id }).del()
+            await db('patients').where({ id_paciente: id }).del()
         } catch (error){
             logger.error( 'Failed deleting patient in repository', {error})
             throw new CustomError ( 'DeleteError', 'Failed deleting patient in repository', 'patients')

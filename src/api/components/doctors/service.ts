@@ -60,7 +60,7 @@ export class DoctorServiceImpl implements DoctorService {
     public async deleteDoctor(id: number): Promise<void> {
         try {
             const existDoctor =  await this.doctorRepository.getDoctorById(id)          
-            await this.doctorRepository.deleteDoctor(existDoctor.id_doctor)           
+            await this.doctorRepository.deleteDoctor(existDoctor.doctor_id)           
         } catch (error) {          
             logger.error('Failed to delete doctor from service')
             throw new CustomError ( 'DeleteError', 'Failed to delete doctor from service', 'doctors' )          

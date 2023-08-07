@@ -1,17 +1,17 @@
 export interface Patient {
-    id_paciente: number
-    nombre: string
-    apellido: string
-    identificacion: string
-    telefono: number
+    patient_id: number
+    first_name: string
+    last_name: string
+    identification: string
+    phone_number: number
     createdAt?: Date
     updatedAt?: Date
 }
 
 export interface PatientReq {
-    name: string
-    lastName: string
+    first_name: string
+    last_name: string
     identification: string
-    phone: number
-    email: string
+    phone_number: number
+    //email: string
 }

@@ -13,17 +13,19 @@ describe("DoctorController", () => {
   let doctorService: DoctorService;
   let doctorController: DoctorController;
   const doctorRes: Doctor = {
-    id_doctor: 1,
-    nombre: "Carlos",
-    apellido: "Caceres",
-    especialidad: "Medicina General",
-    consultorio: 100,
+    doctor_id: 1,
+    first_name: "Mario",
+    last_name: "Triana",
+    specialty: "Medicina General",
+    office: "100",
+    email: "stringqstring.com"
   };
   const doctorReq: DoctorReq = {
-    nombre: "Carlos",
-    apellido: "Caceres",
-    especialidad: "Medicina General",
-    consultorio: 100,
+    first_name: "Carlos",
+    last_name: "Caceres",
+    specialty: "Radiología",
+    office: "101C",
+    email: "carlos_caceres@gmail.com"
   };
 
   beforeEach(() => {
@@ -73,12 +75,10 @@ describe("DoctorController", () => {
   describe("createDoctor", () => {
     it("should create a new doctor and return info", async () => {
       // Mock Process
-
       (mockReq.body as DoctorReq) = doctorReq;
       (doctorService.createDoctor as jest.Mock).mockResolvedValue(doctorRes);
       // Method execution
       await doctorController.createDoctor(mockReq, mockRes);
-
       // Asserts
       expect(doctorService.createDoctor).toHaveBeenCalledWith(doctorReq);
       expect(mockRes.json).toHaveBeenCalledWith(doctorRes);
@@ -92,7 +92,7 @@ describe("DoctorController", () => {
 
       await doctorController.createDoctor(mockReq, mockRes);
 
-      expect(mockRes.json).toHaveBeenCalledWith({ message: '"nombre" is required' });
+      expect(mockRes.json).toHaveBeenCalledWith({ message: '"first_name" is required' });
       expect(mockRes.status).toHaveBeenCalledWith(400);
     });
   });
@@ -143,7 +143,6 @@ describe("DoctorController", () => {
   describe("updateDoctor", () => {
     it("should update a doctor and return info", async () => {
       // Mock Process
-
       (mockReq.body as DoctorReq) = doctorReq;
       (doctorService.updateDoctor as jest.Mock).mockResolvedValue(doctorRes);
 

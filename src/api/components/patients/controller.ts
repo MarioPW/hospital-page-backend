@@ -7,7 +7,7 @@ import { createPatientSchema } from "./validations/patient.validation"
 
 
 export interface PatientController {
-    getAllPatient(req: Request, res: Response): void
+    getAllPatients(req: Request, res: Response): void
     createPatient(req: Request, res: Response): void  
     getPatientById(req: Request, res: Response): void 
     updatePatient(req: Request, res: Response): void   
@@ -20,7 +20,7 @@ export class PatientControllerImpl implements PatientController {
     constructor ( patientService: PatientService ){
         this.patientService = patientService
     }
-    public  async getAllPatient(req: Request, res: Response): Promise<void> {
+    public  async getAllPatients(req: Request, res: Response): Promise<void> {
         try {
             const patients = await this.patientService.getAllPatients()
             res.status(200).json(patients)
@@ -105,7 +105,7 @@ export class PatientControllerImpl implements PatientController {
             const id = parseInt(req.params.id)
             await this.patientService.deletePatient(id)
             
-            res.status(200).json({message: 'Patient was deleted successfully'})
+            res.status(200).json({message: `Patient ${id} was deleted successfully`})
         } catch (error) {
             logger.error(error)
             if (error instanceof CustomError){

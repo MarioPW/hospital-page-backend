@@ -8,7 +8,7 @@ import { Doctor } from "../doctors/model"
 export interface AppointmentService {
     getAllAppointments(): Promise<Appointment[]>
     createAppointment(patientReq: AppointmentReq): Promise<Appointment>
-    getAppointmentById(id: number): Promise<Appointment>
+    getAppointmentById(id: number): Promise<AppointmentResDB>
     updateAppointment(id: number, updates:Partial<AppointmentReq>): Promise<AppointmentReq>
     deleteAppointment(id: number): Promise<void>
 }
@@ -36,7 +36,7 @@ export class AppointmentServiceImpl implements AppointmentService {
     public async createAppointment(appointmentReq: AppointmentReq): Promise<Appointment> {
         try{
             const appointmentDb = await this.appointmentRepository.createAppointment(appointmentReq) 
-            const doctor = await this.doctorRepository.getDoctorById(appointmentDb.id_doctor)
+            const doctor = await this.doctorRepository.getDoctorById(appointmentDb.doctor_id)
             const appointment: Appointment = mapAppointment(appointmentDb, doctor)
             return appointment
         } catch (error){
@@ -44,11 +44,9 @@ export class AppointmentServiceImpl implements AppointmentService {
         }
     }
 
-    public async getAppointmentById(id: number): Promise<Appointment> {
+    public async getAppointmentById(id: number): Promise<AppointmentResDB> {
         try {
-            const appointmentDb =  await this.appointmentRepository.getAppointmentById(id)
-            const doctor = await this.doctorRepository.getDoctorById(appointmentDb.id_doctor)
-            const appointment: Appointment = mapAppointment(appointmentDb, doctor)
+            const appointment =  await this.appointmentRepository.getAppointmentById(id)
             return appointment;
             }
         catch (error) {
@@ -75,7 +73,7 @@ export class AppointmentServiceImpl implements AppointmentService {
     public async deleteAppointment(id: number): Promise<void> {
         try {
             const existAppointment =  await this.appointmentRepository.getAppointmentById(id)
-            await this.appointmentRepository.deleteAppointment(existAppointment.id_cita)
+            await this.appointmentRepository.deleteAppointment(existAppointment.appointment_id)
         } catch (error) {
             logger.error('Failed to delete Appointment from service')
             throw new CustomError ('DeleteError','Failed to delete Appointment from service', 'appointments')
@@ -85,11 +83,11 @@ export class AppointmentServiceImpl implements AppointmentService {
 
 export function mapAppointment(appointmentDb: AppointmentResDB, doctor: Doctor): Appointment {
     const appointment: Appointment = {
-        identificacion_paciente: appointmentDb.identificacion_paciente, 
-        especialidad:appointmentDb.especialidad,
-        doctor: `${doctor.nombre} ${doctor.apellido}`,
-        consultorio: doctor.consultorio,
-        horario: appointmentDb.horario
+        patient_identification: appointmentDb.patient_identification, 
+        specialty:appointmentDb.specialty,
+        doctor: `${doctor.first_name} ${doctor.last_name}`,
+        office: doctor.office,
+        schedule: appointmentDb.schedule
     }
     return appointment
 }

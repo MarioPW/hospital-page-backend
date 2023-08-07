@@ -40,8 +40,7 @@ export class DoctorControllerImpl implements DoctorController {
             this.doctorService.createDoctor(value)
             .then(
                 (doctor) => {
-                    res.status(201).json(doctor)
-                    
+                    res.status(201).json(doctor)                  
                 },
                 (error) => {
                     logger.error(error)
