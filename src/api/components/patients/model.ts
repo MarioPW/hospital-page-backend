@@ -4,6 +4,7 @@ export interface Patient {
     last_name: string
     identification: string
     phone_number: number
+    email: string
     createdAt?: Date
     updatedAt?: Date
 }
@@ -13,5 +14,5 @@ export interface PatientReq {
     last_name: string
     identification: string
     phone_number: number
-    //email: string
+    email: string
 }

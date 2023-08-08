@@ -17,15 +17,15 @@ describe("PatientController", () => {
     first_name: "Juan",
     last_name: "Perez",
     identification: "c.c.1126267213",
-    phone_number: 123
-
+    phone_number: 123,
+    email: "juan_perez@gmail.com"
   };
   const patientReq: PatientReq = {
     first_name: "Juan",
     last_name: "Perez",
     identification: "1126267213",
     phone_number: 123,
-    // email: "juan_perez@gmail.com"
+    email: "juan_perez@gmail.com"
   };
 
   beforeEach(() => {

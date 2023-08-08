@@ -5,7 +5,7 @@ const createPatientSchema = Joi.object({
     last_name: Joi.string().required(),
     identification: Joi.string().required(),
     phone_number: Joi.number().integer().required(),
-    // email: Joi.string().email().required()
+    email: Joi.string().email().required()
 })
 
 export { createPatientSchema }
